@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root{
+  --button-bg-color:#48BAEB; 
+}
+
+body, html, #root {
+    height: 100%;
+    margin: 0; 
+    font-family: "Poppins", Sans-serif;
+}
+  
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    padding-top:6rem;
+}
+.header { 
+    /* border: 1px solid purple; */
+    background-color: #fff;
+    flex: 0 0 auto;
+}
+  
+.main-content {
+/* border: 1px solid hotpink; */
+flex: 1 0 auto; /* Main content takes up the remaining space */
+}
+  
+.footer {
+flex: 0 0 auto; /* Footer takes up its content height */
+}
+
+
+/* utility */
+.btn-primary{ 
+  background-color: var(--button-bg-color) !important;
+  padding: 15px !important;
+  border-radius: 5px !important;
+  font-weight: 100 !important;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-decoration: none;
+  color: white !important;
+}
+
+.btn-primary:hover{
+  background-color: #000 !important;
+}
+
+
+
+.org{
+  color: rgba(255, 120, 83, 1);
+}
+
+
+
+/* header Section*/
+
+
+
+.menu{
+  background-color: var(--button-bg-color) !important;
+}
+
+.menu .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.55)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-nav a{
+  color: #000;
+  font-size: 1.125rem;
+  font-weight: 300 !important;
+
+}
+
+
+.navbar-nav  .active{
+  color:#48BAEB;
+  text-transform: none;
+}
+
+.nav-link{
+  padding: 0 !important;
+}
+
+
+/* Slider Section */
+
+
+.service_slider .carousel-control-prev, .service_slider .carousel-control-next{
+  width: 30px !important;
+}
+.service_slider .carousel-control-prev-icon{
+   color: orange !important;
+  background-image: url('left.png') !important;
+}
+
+.service_slider .carousel-control-next-icon{
+  background-image: url('next.png') !important
+}
+
+.service_list{
+  list-style-type:none;
+}
+
+.service_list_item::before{
+  content: "\2713"; /* Check Mark (✔) */
+  /* color: green; */
+  margin-right: 6px;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: transparent;
+}
+.service_list_text{
+  color: #2D2D2D;
+} 
+
+.service_slider_button{
+  border-radius: 30px !important;
+  text-transform: none;
+}
+.service_slider_button:hover{
+  background-color:var(--button-bg-color) !important;
+}
+
+
+.slider-image{
+  max-width: 100%;
+  /* width: 500px; */
+  height: 70vh;
+}

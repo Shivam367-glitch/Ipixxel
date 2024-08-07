@@ -1,0 +1,83 @@
+{
+    "sliderContent": [
+      {
+        "header": "Digital Reality services - From",
+        "background": "#eee0d6",
+        "subHeader": "Concept to Creation",
+        "buttonInfo": {
+          "name": "Get Started Today!",
+          "href": "/digital-marketing-services"
+        },
+        "image": {
+          "name": "Digital.webp",
+          "width": 400,
+          "height": 690,
+          "src": "https://ipixxel.com/wp-content/uploads/2024/06/Frame.webp",
+          "alt": "",
+          "srcset": "https://ipixxel.com/wp-content/uploads/2024/06/Frame.webp 400w, https://ipixxel.com/wp-content/uploads/2024/06/Frame-174x300.webp 174w",
+          "sizes": "(max-width: 400px) 100vw, 400px"
+        },
+        "list": [
+          "Custom Website Design",
+          "Responsive Web Development",
+          "User-Centric Design",
+          "Cutting-Edge Technologies",
+          "Scalable Web Applications",
+          "SEO and Performance Optimization",
+          "Continuous Support and Maintenance"
+        ]
+      },
+      {
+        "header": "Transform Your Ideas Into Stunning",
+        "background": "#fff",
+        "subHeader": "Mobile Apps",
+        "buttonInfo": {
+          "name": "Get Started Today!",
+          "href": "/mobile-app-development"
+        },
+        "image": {
+          "name": "Mobile-apps.webp",
+          "width": 772,
+          "height": 812,
+          "src": "https://ipixxel.com/wp-content/uploads/2024/06/Group-1321314264.webp",
+          "alt": "",
+          "srcset": "https://ipixxel.com/wp-content/uploads/2024/06/Group-1321314264.webp 772w, https://ipixxel.com/wp-content/uploads/2024/06/Group-1321314264-285x300.webp 285w, https://ipixxel.com/wp-content/uploads/2024/06/Group-1321314264-768x808.webp 768w",
+          "sizes": "(max-width: 772px) 100vw, 772px"
+        },
+        "list": [
+          "Custom App Development",
+          "User-Centric Design",
+          "Seamless Performance",
+          "Full-Cycle Development",
+          "Cross-Platform Solutions",
+          "Post-Launch Support"
+        ]
+      },
+      {
+        "header": "The digital presence with our expert ",
+        "background": "#D1EDF5",
+        "subHeader": "UX/UI Design",
+        "buttonInfo": {
+          "name": "Start Your Project Today",
+          "href": "/ux-ui-design"
+        },
+        "image": {
+          "name": "ui-ux.webp",
+          "alt": "IT Services and IT Consulting: ui &amp; ux desogn service",
+          "src": "https://ipixxel.com/wp-content/uploads/2024/06/ui-ux-design-services.webp",
+          "width": 680,
+          "height": 624,
+          "sizes": "(max-width: 680px) 100vw, 680px",
+          "srcset": "https://ipixxel.com/wp-content/uploads/2024/06/ui-ux-design-services.webp 680w, https://ipixxel.com/wp-content/uploads/2024/06/ui-ux-design-services-300x275.webp 300w"
+        },
+        "list": [
+          "User-Centered Design",
+          "Intuitive Navigation",
+          "Responsive Layouts",
+          "Engaging Visuals",
+          "Accessibility Standards",
+          "Usability Testing"
+        ]
+      }
+    ]
+  }
