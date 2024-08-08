@@ -1,0 +1,14 @@
+{
+    "socialMedia":[
+        {
+           "href":"https://www.facebook.com/ipixxelblr", 
+           "icon":"<FaFacebook/>"
+        },{
+            "href":"https://www.linkedin.com/company/ipixxel/",
+            "icon":"<FaLinkedin/>"
+        },{
+            "href":"https://www.instagram.com/ipixxelindia/",
+            "icon":"<FaInstagram />"
+        }
+    ]
+}

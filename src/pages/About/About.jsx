@@ -1,8 +1,13 @@
+import Contact from "../../components/Contact/Contact"
 
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+
+
+      <Contact background="Contact.webp"/>
+    </div>
   )
 }
 
