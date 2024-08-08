@@ -5,7 +5,7 @@ const Client = () => {
 
     const {clientList}=clientJson;
   return (
-    <Container fluild={true} className="border">
+    <Container fluild={true} className="">
         <Row className="d-flex flex-column gap-3">
             <Col className="col-12">
             <h3 className="display-6 fw-bold">Our Clients</h3>
