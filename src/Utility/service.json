@@ -1,0 +1,23 @@
+{
+    "serviceList": [{
+        "name":"Web Development",
+        "href":"/web-development"
+    },{
+        "name":"Mobile App Developement",
+        "href":"/mobile-app-deevelopement"
+    },
+    {
+        "name":"UX / UI Design", 
+        "href":"/ux-ui-design"
+    },{
+        "name":"IT Consulting", 
+        "href":"/it-consulting"
+    },{
+        "name":"Graphic Designing",
+        "href":"/graphic-desing-services"
+    },{
+        "name":"Digital Marketing",
+        "href":"/digital-marketing-services"
+    }
+]
+}

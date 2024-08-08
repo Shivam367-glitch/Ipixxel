@@ -8,6 +8,8 @@
 } 
 :root{
   --button-bg-color:#48BAEB; 
+  --primary-text-color:#475467;
+  --primary-background-color:#48BAEB;
 }
 
 body, html, #root {
@@ -16,7 +18,8 @@ body, html, #root {
     font-family: "Poppins", Sans-serif;
 }
   
-.app-layout {
+.app-layout { 
+  border: 1px solid red;
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
@@ -34,38 +37,40 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 }
   
 .footer {
+  background-color: #ECEDF4;
   flex: 0 0 auto; /* Footer takes up its content height */
 }
 
 
+
+
 /* utility */
-.btn-primary{ 
+.btn-primary,.btn-secondary{ 
   background-color: var(--button-bg-color) !important;
-  padding: 15px !important;
-  border-radius: 5px !important;
-  font-weight: 100 !important;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 100;
   font-size: 18px;
   text-transform: uppercase;
   line-height: 20px;
   text-decoration: none;
-  color: white !important;
+  color: white;
 }
+.btn-secondary{
+  text-transform: none;
+}
+ 
 
 .btn-primary:hover{
   background-color: #000 !important;
 }
-
-
 
 .org{
   color: rgba(255, 120, 83, 1);
 }
 
 
-
 /* header Section*/
-
-
 
 .menu{
   background-color: var(--button-bg-color) !important;
@@ -91,6 +96,11 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   padding: 0 !important;
 }
 
+
+.offcanvas{
+  /* to select the width of  */
+  width: 315px !important;
+}
 
 /* Slider Section */
 
@@ -136,9 +146,38 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   height: 50vh;
 }
 
-.offcanvas{
-  width: 315px !important;
+/* client Section */
+
+.client_container{
+    background-color: transparent;
+    background-image: linear-gradient(-90deg, #B0CFF2 0%, #48BAEB 100%);
+    border-radius: 10px;
 }
+
+
+/* Footer Section */
+
+
+.icon{
+  background-color: var(--button-bg-color);
+  padding:5px 8px;
+  border-radius: 5px;
+  color: white;
+} 
+
+
+.footer-link{
+  color: var(--primary-text-color);
+  transition: color 0.3s;
+}
+
+.footer-link:hover{
+  color:var(--button-bg-color);
+}
+
+
+
+/* media Queries */
 
 @media screen and (max-width:992px) {
   .navbar-nav a{ 
