@@ -18,7 +18,7 @@ const Header = () => {
             >
               <Offcanvas.Header closeButton/>
               <Offcanvas.Body className="d-lg-flex flex-lg-row justify-content-lg-center align-items-lg-center">
-              <Nav className="justify-content-end gap-5 flex-grow-1">
+              <Nav className="justify-content-end gap-3 gap-lg-5 flex-grow-1">
               <NavLink to="/" className="text-decoration-none">Home</NavLink>
               <NavLink to="/about-us" className="text-decoration-none">About Us</NavLink>
               <NavDropdown
