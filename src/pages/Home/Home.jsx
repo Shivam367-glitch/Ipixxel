@@ -9,23 +9,14 @@ const Home = () => {
 
   const {serviceList}=serviceJson;
   return (
-    <Container fluid className="m-0 p-0">
-      <Row className="m-0 p-0">
+    <Container fluid className="m-0 p-0 overflow-hidden">
+      <Row className="m-0 p-0 ">
         <Col className="m-0 p-0 col-12">
           <Slider />
         </Col>
-
-        <Col className="m-0 p-0 col-12 mt-5">
-         <Contact background="HomeContact.webp"/>
-        </Col>
-
-        <Col className="m-0 p-0 col-12 mt-5">
-          <Client/>
-        </Col>
-
-      {/* WE OFFER SECTION */} 
+ {/* WE OFFER SECTION */} 
   
-       <Col className="m-0 p-0 col-12 mt-5 we-offer-container">
+ <Col className="m-0 p-0 col-12 mt-5 we-offer-container">
        <Container fluid={true} className="m-0 p-0">
         <Row className="m-0 p-0 mx-md-4 d-flex flex-column gap-5 mb-3 mb-lg-5">
           <Col className="d-flex flex-column gap-3 col-12 mt-2">
@@ -43,17 +34,14 @@ const Home = () => {
               }
               </Row>
           </Container>
-          
           </Col>
         </Row>
        </Container>
 
-       </Col>        
+       </Col>       
 
 
-
-
-        {/* Solution Section */}
+   {/* Solution Section */}
         <Col className="m-0 p-0 col-12 mt-5 overflow-hidden solution_container"> 
         <Container fluid={true} className=" m-0 p-2 p-md-0">
           <Row className="m-0 p-0 d-flex flex-row justify-content-center  justify-content-md-around m-md-4">
@@ -67,10 +55,16 @@ const Home = () => {
          </Col>
           </Row>
         </Container>
+        </Col>     
+
+        <Col className="m-0 p-0 col-12 mt-5">
+          <Client/>
         </Col>
 
 
-
+        <Col className="m-0 p-0 col-12 mt-5  wow animate__animated animate__fadeInUp">
+         <Contact background="HomeContact.webp"/>
+        </Col>
       </Row>
    </Container> 
   )
