@@ -31,15 +31,15 @@ const Footer = () => {
         </Col>
         <Col className="col-12 col-md-3 d-flex flex-column gap-3 mt-4 mt-md-2">
         <h3 className="text-uppercase">Company</h3>
-        <Link to='/about-us' className="text-decoration-none footer-link" target="_blank">About Us</Link>
-        <Link to='/contact-us' className="text-decoration-none footer-link" target="_blank">Contact Us</Link>
+        <Link to='/about-us' className="text-decoration-none footer-link">About Us</Link>
+        <Link to='/contact-us' className="text-decoration-none footer-link">Contact Us</Link>
         </Col>
         <Col className="col-12 col-md-3  d-flex flex-column gap-3 mt-4 mt-md-2">
         <h3 className="text-uppercase">SERVICES</h3>
         {
           serviceList.map((service,ind)=>{
             return(
-               <Link to={service.href} className="text-decoration-none footer-link" target="_blank" key={ind}>{service.name}</Link>
+               <Link to={service.href} className="text-decoration-none footer-link" key={ind}>{service.name}</Link>
             )
           })
         }

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
         <Navbar key={'lg'} expand={'lg'} className="mb-3 py-3 header" fixed="top">
-          <Container fluid={'lg'} className="d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center my-lg-0 p-lg-0 gap-lg-5">
+          <Container fluid={true} className="d-lg-flex flex-lg-row justify-content-lg-between align-items-lg-center my-lg-0 p-lg-0 gap-lg-5 mx-md-5">
             <NavLink to="/">
                 <img src="ipixxel-logo.webp" alt="Ipixxel Logo" />
             </NavLink>
