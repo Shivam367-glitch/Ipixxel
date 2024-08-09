@@ -1,23 +1,36 @@
 {
     "serviceList": [{
         "name":"Web Development",
-        "href":"/web-development"
+        "href":"/web-development",
+        "image":"web-development.jpg",
+         "content":"In a shorter amount of time, create an effective web development that complements your brand and sector."
     },{
         "name":"Mobile App Developement",
-        "href":"/mobile-app-deevelopement"
+        "href":"/mobile-app-developement",
+        "image":"mobile-app-development.webp",
+         "content":"Make a powerful mobile application in a shorter amount of time that complements your brand and sector."
     },
     {
         "name":"UX / UI Design", 
-        "href":"/ux-ui-design"
+        "href":"/ux-ui-design",
+        "image":"ui.webp",
+        "content":"With the help of a knowledgeable team and an efficient design process, create the product you need on schedule."
     },{
         "name":"IT Consulting", 
-        "href":"/it-consulting"
+        "href":"/it-consulting",
+        "image":"it-consulting.jpg",
+        "content":"Put your trust in our brightest brains to streamline workflows, integrate new technologies, and combine app portfolios."
     },{
         "name":"Graphic Designing",
-        "href":"/graphic-desing-services"
+        "href":"/graphic-desing-services",
+        "image":"digital-marketing.webp",
+         "content":"Transform your brand's visual identity with impactful graphic design that speaks volumes in an instant."
     },{
         "name":"Digital Marketing",
-        "href":"/digital-marketing-services"
+        "href":"/digital-marketing-services",
+        "image":"digital-marketing.webp",
+        "content":"Elevate your online presence with strategic digital marketing that captures and converts your target audience effortlessly."
+    
     }
 ]
 }
