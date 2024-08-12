@@ -16,7 +16,7 @@ const Home = () => {
         </Col>
  {/* WE OFFER SECTION */} 
   
- <Col className="m-0 p-0 col-12 mt-5 we-offer-container">
+      <Col className="m-0 p-0 col-12 mt-5 we-offer-container">
        <Container fluid={true} className="m-0 p-0">
         <Row className="m-0 p-0 mx-md-4 d-flex flex-column gap-5 mb-3 mb-lg-5">
           <Col className="d-flex flex-column gap-3 col-12 mt-2">

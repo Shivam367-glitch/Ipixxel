@@ -3,9 +3,11 @@ import { Link } from "react-router-dom"
 import { FaFacebook,FaLinkedin,FaInstagram,FaEnvelope  } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoCallSharp } from "react-icons/io5";
-import serviceJSON from "../../Utility/service.json";
+import {serviceList} from "../../Utility/service.json";
+import {contactDetails} from "../../Utility/contactDetails.json";
 const Footer = () => {
-  const {serviceList}=serviceJSON
+  
+  const {Office_Address,Phone_Number,Email_Address}=contactDetails
   
   return (
     <Container fluid={true} className="footer mt-4 py-3 py-md-5">
@@ -27,7 +29,7 @@ const Footer = () => {
             </Col>
           </Row>
          </Container>
-         <p>©{new Date().getFullYear()} <Link to='https://ipixxel.com/' className="text-info text-decoration-none" target="_blank">iPixxel Tech Private Limited</Link>. All Rights Reserved</p>
+         <p className="text-secondary">©{new Date().getFullYear()} <Link to='https://ipixxel.com/' className="text-info text-decoration-none" target="_blank">iPixxel Tech Private Limited</Link>. All Rights Reserved</p>
         </Col>
         <Col className="col-12 col-md-3 d-flex flex-column gap-3 mt-4 mt-md-2">
         <h3 className="text-uppercase">Company</h3>
@@ -46,10 +48,10 @@ const Footer = () => {
         </Col>
         <Col className="col-12 col-md-3 d-flex flex-column gap-3 mt-4 mt-md-2">
         <h3 className="text-uppercase ">CONNECT</h3> 
-        <p className="footer-link"><FaLocationDot color="#48BAEB" className="me-2"/>Ardent Office One, 2nd Floor, Unit: S-1208, Hoodi Main Rd Hoodi, Bengaluru, Karnataka 560048.</p>
-        <Link to="tel:+919986512166" className="text-decoration-none footer-link" ><IoCallSharp color="#48BAEB" className="me-2"/>+91 9986512166</Link>
+        <p className="footer-link"><FaLocationDot color="#48BAEB" className="me-2"/>{Office_Address}</p>
+        <Link to="tel:+919986512166" className="text-decoration-none footer-link" ><IoCallSharp color="#48BAEB" className="me-2"/>{Phone_Number}</Link>
 
-        <Link to="mailto:info@ipixxel.com" className="text-decoration-none footer-link"><FaEnvelope color="#48BAEB" className="me-2"/>info@ipixxel.com</Link>
+        <Link to="mailto:info@ipixxel.com" className="text-decoration-none footer-link"><FaEnvelope color="#48BAEB" className="me-2"/>{Email_Address}</Link>
         </Col>
       </Row>
     </Container>
