@@ -1,0 +1,19 @@
+{
+    "list":[
+        {
+            "heading":"WHO WE ARE",
+            "backgroundColor":"#dbecff",
+            "content":"Our innovative concepts are expertly crafted by our creative professionals, who also provide clients with innovative interactive websites and mobile applications."
+        },
+        {
+            "heading":"WHAT WE DO",
+            "backgroundColor":"#ffe9ca",
+            "content":"We think a simple idea can solve any challenge. The best ideas originate from the imagination, develop into strategies using cutting-edge technology, and emphasize creative interaction design."
+        },
+        {
+            "heading":"HOW WE WORK",
+            "backgroundColor":"#ffe5f9",
+            "content":"With our agile development methodology and flexible approach, we can customize the software to meet the specific business needs of our clients. From design to delivery, the customer will receive regular updates throughout the project."
+        }
+    ]
+}

@@ -6,6 +6,9 @@ import Header from "./components/Header/Header"
 import Home from './pages/Home/Home'
 import NotFound from './pages/NotFound'
 import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
+import Work from './pages/Work/Work'
+import Blog from './pages/Blog/Blog'
 
 const  AppLayout=()=>{
 
@@ -32,8 +35,16 @@ function App() {
     },{
       path:'/about-us',
       element:<About/>
+    },{
+      path:'/contact-us',
+      element:<Contact/>
+    },{
+      path:'/our-works',
+      element:<Work/>
+    },{
+      path:'/blogs',
+      element:<Blog/>
     }
-  
   ],
     errorElement:<NotFound/>
   }])

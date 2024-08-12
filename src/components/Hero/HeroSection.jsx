@@ -2,14 +2,20 @@ import { Col, Container, Row } from "react-bootstrap"
 
 
 const HeroSection = (props) => {
-  return (
-    <Container fluid={true} style={{background:`url(${props.background})`}} className="hero_container m-0">
-      <Row className="m-0 p-0"> 
-        <Col className=" col-12 m-0 p-0"> 
-            <h1 className="display-2 fw-bold">{props.heading}</h1>
-        </Col>
-        </Row>  
 
+  const {background,heading,subHeading}=props;
+   
+  return (
+    <Container fluid={true} style={{backgroundImage:`url(${background})`}} className="hero_container">
+      <Row className="m-0 p-0"> 
+        <Col className=" col-12 m-0 p-0 overflow-hidden "> 
+            <h1 className="display-2 fw-bold d-inline-block ms-md-4 wow animate__animated animate__backInLeft ">{heading}</h1>
+            {
+             subHeading && <h1 className="display-2 fw-bold  ms-md-4 wow animate__animated animate__backInRight">{subHeading}</h1>
+            }
+        </Col>
+
+      </Row>  
     </Container>
   )
 }

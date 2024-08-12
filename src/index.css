@@ -164,7 +164,13 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   background-size: contain; 
 }
 
+/* Contact Us  */ 
 
+
+.common_contact{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 /* we-offer-container */
 
@@ -182,10 +188,23 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 .hero_container{ 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:bottom;
+  background-position:right center;
   color: white;
-  padding: 100px;
+  padding: 100px; 
+  background-color: #5c5b5b;
+  background-blend-mode: overlay;
+
 }
+ 
+/* description_container */ 
+
+
+.description_container{
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
 
 /* Footer Section */
 
@@ -206,28 +225,6 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   color:var(--button-bg-color);
 }
 
-
-
-/* media Queries */
-
-@media screen and (max-width:992px) {
-  .navbar-nav a{ 
-    font-weight: 500 !important;
-  }
-} 
-@media screen and (min-width:768px){
-  .slider-image{
-    height: 50vh;
-  }
-}
-@media screen and (min-width:992px){
-  .slider-image{
-    height: 70vh;
-  }
-}
-
-
- 
 
 
 .box {
@@ -298,4 +295,75 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   transition: all .3s ease;
   opacity: 1; 
 }
+
+
+
+
+
+
+/* media Queries */
+
+
+
+/* @media only screen and (max-width:992px) {
+  .navbar-nav a{ 
+    font-weight: 500 !important;
+  }
+} 
+@media only screen and (min-width:768px){
+  .slider-image{
+    height: 50vh;
+  }
+}
+@media only screen and (min-width:992px){
+  .slider-image{
+    height: 70vh;
+  }
+} */
+
+/* max-width means < */ 
+
+/* min-width means >= */
+ /* For screen widths less than 768px (default styles) */
+ 
+
+
+/*medium  */
+/* For screen widths between 768px and 991px */ 
+
+@media only screen and (max-width:992px){
+  .navbar-nav a {
+    font-weight: 500 !important  ; /* Default font weight for larger screens */
+  }
+  .common_contact{   
+    background-position:top left;
+  }
+
+  .description_container{
+   background-position: top left; 
+   background-size: 100% 100%;
+  }
+  
+
+  .hero_container{
+    padding:1.5rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .slider-image {
+    height: 50vh;
+  } 
+ 
+}
+
+
+/* larger Devices */
+/* For screen widths of 992px and above */
+@media only screen and (min-width: 992px) {
+
+  .slider-image {
+    height: 70vh;
+  }
+}
+
 
