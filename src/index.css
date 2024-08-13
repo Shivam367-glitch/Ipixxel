@@ -335,8 +335,9 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   .navbar-nav a {
     font-weight: 500 !important  ; /* Default font weight for larger screens */
   }
+
   .common_contact{   
-    background-position:top left;
+    background-position:center;
   }
 
   .description_container{

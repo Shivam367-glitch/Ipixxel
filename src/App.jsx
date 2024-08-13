@@ -9,7 +9,12 @@ import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Work from './pages/Work/Work'
 import Blog from './pages/Blog/Blog'
-
+import WebDev from "./pages/WebDev"
+import AppDev from "./pages/AppDev"
+import UiUx from "./pages/UiUx"
+import DigitalMarketing from "./pages/DigitalMarketing"
+import ItConsulting from "./pages/ItConsulting"
+import GraphicDesign from "./pages/GraphicDesign"
 const  AppLayout=()=>{
 
 
@@ -44,6 +49,24 @@ function App() {
     },{
       path:'/blogs',
       element:<Blog/>
+    },{
+      path:'/web-development',
+      element:<WebDev/>
+    },{
+      path:'/it-consulting',
+      element:<ItConsulting/>
+    },{
+      path:'/graphic-designing',
+      element:<GraphicDesign/>
+    },{
+      path:'/digital-marketing',
+      element:<DigitalMarketing/>
+    },{
+      path:'/mobile-app-development',
+      element:<AppDev/>
+    },{
+      path:'/ux-ui-design',
+      element:<UiUx/>
     }
   ],
     errorElement:<NotFound/>
