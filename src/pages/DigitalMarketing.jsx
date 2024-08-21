@@ -1,13 +1,19 @@
 import { Col, Container, Row } from "react-bootstrap"
 import Contact from "../components/Contact/Contact"
 import HeroSection from "../components/Hero/HeroSection"
-
+import OrderSection from "../components/Order/OrderSection"
+import {serviceList} from "../Utility/service.json"
 const DigitalMarketing = () => {
   return (
     <Container fluid={true}>
     <Row> 
        <Col className="col-12 m-0 p-0">
           <HeroSection background="digitalHero.jpg" heading="Digital" subHeading="Marketing" backgroundPosition="top center"/>
+        </Col>
+        <Col className="m-0 p-0 col-12 mt-4 p-md-4">
+         <OrderSection heading={"Digital marketing services we offer"}
+         paragraph={"Digital marketing solutions have replaced traditional marketing techniques, making them obsolete. Offering these outstanding digital marketing services is what sets us apart as one of Bangalore’s leading digital marketing organizations."}
+         card={serviceList[2]["specificService"]}/>
         </Col>
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
