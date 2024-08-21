@@ -24,9 +24,9 @@ const Home = () => {
             <h3 className="display-6 fw-medium">WHAT WE OFFER -</h3>
           </Col>
 
-          <Col className="m-0 p-0 col-12 " >  
+          <Col className="m-0 p-0 col-12" >  
           <Container fluid={true} className="m-0 p-0">
-              <Row className="m-0 p-0 gap-5 d-flex flex-column flex-lg-row justify-content-lg-center align-items-center"> 
+              <Row className="m-0 p-0 gap-5 d-flex flex-column flex-lg-row justify-content-lg-around align-items-center"> 
               {
               serviceList.map((service,ind)=>{
                 return <ServiceCard key={ind} {...service}/>

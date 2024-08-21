@@ -7,7 +7,7 @@ const Contact = (props) => {
   const {background}=props;
   
   return (
-    <Container fluid={true} className="text-white px-3 py-5 p-md-5 rounded-2 common_contact" style={{backgroundImage:`url(${background})`}}>
+    <Container fluid={true} className="text-white px-3 py-5  rounded-2 common_contact" style={{backgroundImage:`url(${background})`}}>
         <Row className="d-flex justify-content-md-center align-items-md-center m-md-5 text-md-center">
             <Col className="col-12 col-md-12 col-lg-6 gap-3"> 
                <p className="display-6">Ready to get free consulations for any kind of IT solutions ?</p>
