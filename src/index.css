@@ -188,13 +188,43 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 .hero_container{ 
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:right center;
   color: white;
-  padding: 100px; 
-  background-color: #5c5b5b;
-  background-blend-mode: overlay;
+  padding:80px; 
+  background-color:rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
 
+} 
+
+
+/* Order Section*/
+
+.order_card{
+  /* width: 18rem !important;  */
+   /* height: 18rem !important;  */
+  transition: all 0.3ms ease-in-out;
+} 
+
+.order_para{
+  color: #7e8083;
+
+}  
+ 
+/* .order_svg svg{
+  color:#585858;
+} */
+
+.order_card:hover{
+    background-image: linear-gradient(180deg, #48BAEB 0%, #7B2BFFCC 100%) !important;
+    border-radius: 10px !important;
 }
+.order_card:hover .order_para{
+  color: white !important;
+}
+
+/* .order_card:hover .order_svg svg{
+  color: white !important;
+} */
+
  
 /* description_container */ 
 
@@ -364,6 +394,10 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 
   .slider-image {
     height: 70vh;
+  } 
+  .order_card{
+    width: 20rem !important;
+    height: 18rem !important;
   }
 }
 
