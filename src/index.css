@@ -17,7 +17,9 @@ body, html, #root {
     height: 100%;
     margin: 0; 
     font-family: "Poppins", Sans-serif;
+    scrollbar-width: 1px !important;
 }
+
   
 .app-layout { 
     display: flex;
@@ -205,13 +207,11 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 } 
 
 .order_para{
-  color: #7e8083;
+  color: #585858;
 
 }  
  
-/* .order_svg svg{
-  color:#585858;
-} */
+
 
 .order_card:hover{
     background-image: linear-gradient(180deg, #48BAEB 0%, #7B2BFFCC 100%) !important;
