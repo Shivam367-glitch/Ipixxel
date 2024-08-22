@@ -1,0 +1,37 @@
+{
+    "descriptionList":[
+        {
+           "name":"Web Developement",
+           "paragraphs":["A leading web design firm in Bangalore, iPixxel is committed to offering a comprehensive array of expert web designing services. Our specialty is building websites that are responsive, work perfectly on all kinds of screens, and are optimized for search engines. We are a group of passionate individuals that work together to create websites that are safe, quick, and perform exceptionally well for our clients.","We provide businesses across a range of sectors with bespoke website designs. User experience is our top priority, and we build captivating websites that capture your brand’s essence. Meet our team of skilled website designers in Bangalore. We are committed to creating faultless user experiences and offer superior designs that go above and beyond expectations. Our dedication is on providing creative, superior, and adaptable web design."],
+           "heading":"Your search for creative web design ends at iPixxel, the best website designing company in Bangalore",
+           "backgroundImage":"descriptionWeb.webp",
+           "imgInfo":{
+            "src":"web.webp",
+            "sizes":"",
+            "srcSet":""
+           }
+        },
+        {
+            "name":"About Us",
+            "paragraphs":["iPixxel, head quartered in Bangalore, It is a fast growing IT Company which provides holistic IT solutions to businesses across geographies. We offer IT expertise in application development (IOS & Android), server side development & digital marketing. We have forayed into iOT & e-commerce industries so far. We have plans to enter into IT enabled education services & food service industry. Currently, we have a team of highly skilled IT professionals that work round the clock to ensure iPixxel stays true to its offerings & commitments."],
+            "heading":"We Listen, Adapt And Deliver.",
+            "backgroundImage":"descriptionAbout.webp",
+            "imgInfo":{
+                "src":"about-us-ipixxel-768x512.jpg",
+                "srcSet":"about-us-ipixxel-768x512.jpg 768w,about-us-ipixxel-300x200.jpg 300w,about-us-ipixxel-1024x683.jpg 1024w,about-us-ipixxel-1536x1024.jpg 1536w,about-us-ipixxel-2048x1365.jpg 2048w,about-us-ipixxel-600x400.jpg 600w",
+                "sizes":"(max-width: 768px) 100vw, 768px"
+            }
+        },
+        {
+            "name":"IT Consulting",
+            "paragraphs":["We provide IT consulting services that will help you develop a tech-driven digital strategy, enhance your software architecture, and enhance operations through software portfolio optimization. Our software engineers will complete your digital transformation by carefully organizing and carrying out the specified IT strategy."],
+            "heading":"OUR IT CONSULTING SERVICES",
+            "backgroundImage":"descriptionIt.webp",
+            "imgInfo":{
+                "src":"it-consulting-services-2.jpg",
+                "srcSet":"it-consulting-services-2.jpg 680w,it-consulting-services-2-294x300.jpg 294w",
+                "sizes":"(max-width: 680px) 100vw, 680px"
+            }
+        }
+    ]
+}

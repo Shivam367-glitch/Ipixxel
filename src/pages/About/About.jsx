@@ -2,9 +2,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import Contact from "../../components/Contact/Contact";
 import HeroSection from "../../components/Hero/HeroSection";
 import DescriptionSection from "../../components/DescriptionSection";
-import whoWeAre from "../../Utility/whoWeAre.json";
-const About = () => {
-  const { list } = whoWeAre;
+import { list } from "../../Utility/whoWeAre.json";
+import {descriptionList} from "../../Utility/description.json";
+const About = () => { 
+
+  
+  const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[1]
   return (
     <Container fluid={true} className="overflow-hidden">
       <Row className="d-flex flex-column">
@@ -13,7 +16,7 @@ const About = () => {
         </Col>
 
         <Col className="col-12 m-0 p-0  mt-4">
-          <DescriptionSection background="descriptionAbout.webp" />
+          <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
         </Col>
 
         {/* Who We Are Section */}

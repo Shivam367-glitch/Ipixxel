@@ -13,7 +13,7 @@ const DigitalMarketing = () => {
         <Col className="m-0 p-0 col-12 mt-4 p-md-4">
          <OrderSection heading={"Digital marketing services we offer"}
          paragraph={"Digital marketing solutions have replaced traditional marketing techniques, making them obsolete. Offering these outstanding digital marketing services is what sets us apart as one of Bangalore’s leading digital marketing organizations."}
-         card={serviceList[2]["specificService"]}/>
+         card={serviceList[5]["specificService"]}/>
         </Col>
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
