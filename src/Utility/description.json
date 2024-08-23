@@ -32,6 +32,17 @@
                 "srcSet":"it-consulting-services-2.jpg 680w,it-consulting-services-2-294x300.jpg 294w",
                 "sizes":"(max-width: 680px) 100vw, 680px"
             }
+        },{
+            "name":"Graphic Designing",
+            "paragraphs":["A piece of art that captures the viewer’s interest and projects it is graphic design. The greatest deals coincide with the most inventiveness. With all of our skilled graphic designers on staff at iPixxel, we produce visuals that can propel your company to success.","Since we are aware of the marketing and competition, the appropriate data should be included into the relevant parts. Designs are created in a way that keeps visitors on your website convinced for a long period.","Delivering websites that our clients have imagined is our ultimate goal. iPixxel, a top graphic design firm in Bangalore, assists customers in shaping their businesses with our creations. We find photos and infographics that are pertinent to your industries and produce eye-catching visuals. This improves the website’s aesthetic appeal and increases traffic, both of which encourage the sale of goods and services."],
+            "heading":"Creative Graphic Designing company in Bangalore",
+            "backgroundImage":"descriptionAbout.webp",
+            "imgInfo":{
+                "src":"graphic-design-company.jpg",
+                "srcSet":"graphic-design-company.jpg 658w,graphic-design-company-276x300 276w",
+                "sizes":"(max-width: 658px) 100vw, 658px"
+            }
+
         }
     ]
 }
