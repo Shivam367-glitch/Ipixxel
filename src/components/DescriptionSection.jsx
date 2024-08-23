@@ -8,18 +8,19 @@ const DescriptionSection = (props) => {
     <Row className="mx-lg-3  text-white py-4">
         <Col className="col-12 text-md-center">
         <p className="display-6 fw-light">{heading}</p>
+        
         </Col>
-        <Col className="container-md  col-12 m-md-0 p-md-0 py-5 mt-md-3"> 
-          <Container fluid={true} className="m-md-0 p-md-0">
+        <Col className="container-md  col-12  py-5  "> 
+          <Container fluid={true}>
           <Row  className="justify-content-around ">
-            <Col className="col-1 2 col-md-5 align-self-md-center m-0 p-0">
+            <Col className="col-12 col-md-5 align-self-md-center m-0 p-0">
               {
                 paragraphs.map((para, ind) => (
                   <p className="fw-medium mt-2 fs-5 text-justify" key={ind}>{para}</p>
               ))
               }
             </Col>
-            <Col className="col-12 col-md-6 mt-2 m-md-0 p-0 text-center">
+            <Col className="col-12 col-md-6 mt-2 m-md-0 p-0">
                 <img decoding="async"  src={imgInfo.src} className="img-fluid wow animate__animated animate__backInRight" alt="" 
                 srcSet={imgInfo.srcSet} sizes={imgInfo.sizes}></img>
             </Col>
