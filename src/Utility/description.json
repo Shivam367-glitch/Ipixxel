@@ -32,7 +32,8 @@
                 "srcSet":"it-consulting-services-2.jpg 680w,it-consulting-services-2-294x300.jpg 294w",
                 "sizes":"(max-width: 680px) 100vw, 680px"
             }
-        },{
+        },
+        {
             "name":"Graphic Designing",
             "paragraphs":["A piece of art that captures the viewer’s interest and projects it is graphic design. The greatest deals coincide with the most inventiveness. With all of our skilled graphic designers on staff at iPixxel, we produce visuals that can propel your company to success.","Since we are aware of the marketing and competition, the appropriate data should be included into the relevant parts. Designs are created in a way that keeps visitors on your website convinced for a long period.","Delivering websites that our clients have imagined is our ultimate goal. iPixxel, a top graphic design firm in Bangalore, assists customers in shaping their businesses with our creations. We find photos and infographics that are pertinent to your industries and produce eye-catching visuals. This improves the website’s aesthetic appeal and increases traffic, both of which encourage the sale of goods and services."],
             "heading":"Creative Graphic Designing company in Bangalore",
@@ -43,6 +44,28 @@
                 "sizes":"(max-width: 658px) 100vw, 658px"
             }
 
+        },
+        {
+            "name":"UI/UX",
+            "paragraphs":["Customers are influenced by two visual components when evaluating the quality of your brand or business: the user interface and the user experience. UI & UX provides you with the best chance to engage with your brand whether it is on a desktop or mobile website or app. The number of clients you retain from your digital experiences on screen directly relates to your success.","iPixxel provides various sectors with the greatest UI and UX services. In our job, we don’t discriminate against our clients. Whether you are a recently founded company or an established one, we are committed to providing the greatest and most distinctive solutions for each and every customer that comes to us. As a full-service UI/UX design firm in Bangalore, we have a committed staff that works closely on each project to get the desired design result."],
+            "heading":"UI/UX Design Studio in Bangalore",
+            "backgroundImage":"descriptionUI.webp",
+            "imgInfo":{
+                "src":"ux-ui-design.webp",
+                "srcSet":"ux-ui-design.webp 860w,ux-ui-design-300x264 300w,ux-ui-design-768x677 768w",
+                "sizes":"(max-width: 860px) 100vw, 860px"
+            }
+        },
+        {
+            "name":"Digital Marketing",
+            "paragraphs":["One of Bangalore’s top SEO companies, iPixxel, provides customized services using cutting-edge methods to help your company expand organically. Through technological optimization, we can assist your website in achieving first-page presence. To guarantee high traffic and search engine ranks, we offer high-search volume keywords, pertinent backlinks, and optimized content.","Keep a step ahead of the competition and secure the top spots in the SERP keyword rankings with our unique services. We use cutting-edge SEO strategies to progressively boost website traffic and provide natural leads for your company. With more than ten years of experience, we offer specialized, dependable, and reasonably priced SEO services to guarantee the best possible customer outcomes."],
+            "heading":"Dominate competitors with iPixxel’ SEO services in Bangalore",
+            "backgroundImage":"descriptionDigital.webp",
+            "imgInfo":{
+                "src":"ipixxel-seo-services.webp",
+                "srcSet":"ipixxel-seo-services.webp 659w,ipixxel-seo-services-300x249.jpg 300w",
+                "sizes":"(max-width: 659px) 100vw, 659px"
+            }
         }
     ]
 }
