@@ -1,0 +1,71 @@
+{
+    "ProjectList":[
+    {
+      "imgSrc": "clocrProject.webp",
+      "title": "Clocr",
+      "href":"https://clocr.com/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "eduwisProject.webp",
+      "title": "Eduwis",
+      "href":"https://eduwis.org/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "spireProject.webp",
+      "title": "Spire",
+      "href":"https://spire.ai/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "statefulProject.webp",
+      "title": "Stateful",
+      "href":"https://withstateful.com/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "underground-magenticsProject.jpg",
+      "title": "Underground Magentics",
+      "href":"https://undergroundmagnetics.com/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "my-legacy-2Project.webp",
+      "title": "My Legacy",
+      "href":"https://my-legacy.ai/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc": "crypto-legacyProject.webp",
+      "title": "Crypto Legacy",
+      "href":"https://cryptolegacy.ai/",
+      "category":"ALL"
+    },
+    {
+      "imgSrc":"play-quizProject.webp",
+      "title":"Play Quiz",
+      "category":"UI/UX"
+    },
+    {
+      "imgSrc":"mapaProject.webp",
+      "title":"Mapa",
+      "category":"UI/UX"
+    },
+    {
+      "imgSrc":"ezi-driveProject.webp",
+      "title":"EZI Drive",
+      "category":"UI/UX"
+    },
+    {
+      "imgSrc":"healthcareProjecct.webp",
+      "title":"Healthcare",
+      "category":"UI/UX"
+    },
+    {
+      "imgSrc":"yooyooProject.webp",
+      "title":"Yoo Yoo",
+      "category":"UI/UX"
+    }
+  ]
+}

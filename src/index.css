@@ -17,7 +17,6 @@ body, html, #root {
     height: 100%;
     margin: 0; 
     font-family: "Poppins", Sans-serif;
-    scrollbar-width: 1px !important;
 }
 
   
@@ -44,8 +43,15 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 }
 
 
-
-
+.tab_container>ul{ 
+  margin: auto;
+  width: 40% !important; 
+  border: none;
+}
+.tab_container ul li{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+  padding: 10px;
+}
+ 
 /* utility */
 .btn-primary,.btn-secondary{ 
   background-color: var(--button-bg-color) !important;
@@ -221,9 +227,6 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   color: white !important;
 }
 
-/* .order_card:hover .order_svg svg{
-  color: white !important;
-} */
 
  
 /* description_container */ 
@@ -233,6 +236,18 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
+}
+
+.work_tab>li>button{
+  color: black ; 
+  font-size: 1.75rem;
+}
+.work_tab .active{
+background-color: #48BAEB !important;
+color: white !important; 
+border-radius: 0 !important; 
+border: none !important;
+ 
 }
 
 
@@ -362,6 +377,9 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 /* For screen widths between 768px and 991px */ 
 
 @media only screen and (max-width:992px){
+  .tab_container>ul{
+    width: 100% !important;
+  }
   .navbar-nav a {
     font-weight: 500 !important  ; /* Default font weight for larger screens */
   }
