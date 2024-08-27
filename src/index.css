@@ -22,13 +22,18 @@ body, html, #root {
 .elementor-icon-list-icon{
   display: none !important;
 }
-
 .e-parent:first-child{
   display: flex;
-  flex: row; 
+  flex-direction: row !important; 
   gap: 10px;
   margin-block: 20px !important; 
+} 
+
+
+.e-parent:first-child:nth-child(1){
+  background-color: #FAF9F9 !important;
 }
+
 
 .e-parent:first-child ul{
   display: flex;  
@@ -434,18 +439,31 @@ border: none !important;
 
   .hero_container{
     padding:1.5rem;
-  } 
+  }  
+  
    
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .slider-image {
     height: 50vh;
   } 
- 
- 
 }
 
+@media screen and (max-width:1200px) {
+  
+.e-parent:first-child img{
+  max-width: 100%;
+  height: auto;
+}
 
+.e-parent:first-child{
+  display: flex;
+  flex-direction:column !important ; 
+  gap: 10px;
+  margin-block: 20px !important; 
+}
+
+}
 /* larger Devices */
 /* For screen widths of 992px and above */
 @media only screen and (min-width: 992px) {
@@ -463,7 +481,8 @@ border: none !important;
   .blog_img{
     width:300px ; 
     height: 100%;
-  }
+  }  
+
 }
 
 
