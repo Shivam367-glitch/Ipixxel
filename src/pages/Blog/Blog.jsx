@@ -6,7 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import HeroSection from "../../components/Hero/HeroSection";
 import DOMPurify from 'dompurify';
 import { FaArrowRight } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 const Blog = () => {
   const dispatch = useDispatch();
@@ -48,7 +48,7 @@ const Blog = () => {
         <Col className="col-12 m-0 p-0">
           <HeroSection background="aboutHero.webp" heading="Blogs: The latest post of 2024" subHeading="Follow us and get updated on the latest technologies and tools"/>
         </Col>
-        <Col className='col-12 m-0 p-0 text-center mt-4'> 
+        <Col className='col-12 text-center mt-4 d-none d-md-block'> 
           <h2 className='text-info'>Blogging Trends and Insights</h2>
         </Col>
         <Col className='m-0 p-0 mt-4'>
@@ -56,6 +56,8 @@ const Blog = () => {
             <Row className='p-3 p-md-4 p-lg-0 p-xl-4 gap-5 justify-content-center'>
               {
                 parsedPosts.map((post, index) => {
+                  console.log(posts[index].id);
+                  
                  return(
                   <Col key={index} xs={12} sm={5} md={5} lg={5} className="d-flex flex-column flex-xl-row border border-2 gap-3 m-0 p-0 rounded-2 blog_card">
                     <div style={{height:"230px"}} >
@@ -64,12 +66,17 @@ const Blog = () => {
                     <div className='d-flex flex-column gap-2 p-2'>
                     <p className='fw-medium fs-5' dangerouslySetInnerHTML={{__html:post["title"]}}/>
                      <span className='text-secondary'>Admin | {new Date(posts[index].modified).toLocaleDateString('en-US',{ year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                    <Link to={"/blogs/"+posts[index].id} className='text-decoration-none'>Read More <FaArrowRight/></Link>
-                    </div>
+                     <Link to={`/blogs/${posts[index].id}`} className='text-decoration-none'>
+  Read More <FaArrowRight />
+</Link>
+                     </div>
                 </Col>
                  ) 
                   })
               }
+              {/* <Col>
+              <Outlet/>
+              </Col> */}
             </Row>
           </Container>
         </Col>
