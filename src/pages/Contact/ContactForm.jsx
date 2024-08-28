@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 const ContactForm = () => {
   return (
    <>
-              <Col className="col-12 col-md-6 m-0 p-2  p-md-5 d-flex flex-column gap-3" style={{backgroundColor:"#f8f8f8"}}>
+              <Col className="col-12 col-md-6 m-0 p-2  p-md-5 d-flex flex-column gap-3 wow animate__animated animate__backInLeft" style={{backgroundColor:"#f8f8f8"}}>
                 <p className="text-info fs-4 fw-bold">Send Us  Message</p>
                 <p className="text-black fs-3 fw-semibold">Don’t Hesitate to Contact Us. Say Hello or Send a Message.</p>
                 <div className="d-flex flex-column gap-3">
@@ -40,7 +40,7 @@ const ContactForm = () => {
                   })}
                 </div>
               </Col>
-              <Col className="col-12 col-md-6 m-0  p-5  bg-info">
+              <Col className="col-12 col-md-6 m-0 p-2  p-md-5  bg-info wow animate__animated animate__backInRight">
               <form>
                 <div className="mb-3 ">
                     <input type="email" className="form-control rounded-1 p-2 form_element" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Full Name"/>

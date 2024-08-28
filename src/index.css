@@ -232,7 +232,7 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
   color: white;
   padding:80px; 
   background-color:rgba(0, 0, 0, 0.4);
-  background-blend-mode: multiply;
+  background-blend-mode:multiply;
 
 } 
 

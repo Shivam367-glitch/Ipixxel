@@ -38,7 +38,7 @@ const Blog = () => {
     <Container fluid className='overflow-hidden'>
       <Row className='flex-wrap overflow-hidden'>
         <Col className="col-12 m-0 p-0">
-          <HeroSection background="aboutHero.webp" heading="Blogs: The latest post of 2024" subHeading="Follow us and get updated on the latest technologies and tools"/>
+          <HeroSection background="blogHero.jfif" heading="Blogs: The latest post of 2024" subHeading="Follow us and get updated on the latest technologies and tools"/>
         </Col>
         <Col className='col-12 text-center mt-4 d-none d-md-block'> 
           <h2 className='text-info'>Blogging Trends and Insights</h2>
