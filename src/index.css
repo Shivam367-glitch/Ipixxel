@@ -384,7 +384,14 @@ border: none !important;
   opacity: 1; 
 }
 
-
+/* Contact Page */
+.form_element{
+  /* background: white !important; */
+  color: #989898 !important;
+}
+.form_element::placeholder{
+  color: #989898;
+}
 
 
 
