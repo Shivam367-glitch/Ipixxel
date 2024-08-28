@@ -1,17 +1,16 @@
-
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchPosts } from '../../features/Post/postsSlice';
 import { Col, Container, Row } from 'react-bootstrap';
 import HeroSection from "../../components/Hero/HeroSection";
-import DOMPurify from 'dompurify';
 import { FaArrowRight } from 'react-icons/fa';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Blog = () => {
   const dispatch = useDispatch();
-  const { posts, loading, error } = useSelector((state) => state.posts);
+  const { posts, loading , error } = useSelector((state) => state.posts);
   const [parsedPosts, setParsedPosts] = useState([]);
+ 
 
   useEffect(() => {
     dispatch(fetchPosts());
@@ -19,28 +18,21 @@ const Blog = () => {
 
   useEffect(() => {
     if (posts.length > 0) {
-   
-
       const parseContent = (htmlContent) => {
         const parser = new DOMParser();
         const doc = parser.parseFromString(htmlContent, 'text/html');
-        const img=doc.querySelector('img');  
-         return  [img.src,img.srcset];
+        const img = doc.querySelector('img');
+        return [img?.src || '', img?.srcset || ''];
       };
-
 
       const newParsedPosts = posts.map(post => ({
         title: post.title.rendered,
-        images:parseContent(post.content.rendered)
+        images: parseContent(post.content.rendered)
       }));
 
       setParsedPosts(newParsedPosts);
     }
   }, [posts]);
-
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error loading posts: {error}</p>;
-  if (parsedPosts.length === 0) return <p>No posts available</p>;
 
   return (
     <Container fluid className='overflow-hidden'>
@@ -51,35 +43,44 @@ const Blog = () => {
         <Col className='col-12 text-center mt-4 d-none d-md-block'> 
           <h2 className='text-info'>Blogging Trends and Insights</h2>
         </Col>
-        <Col className='m-0 p-0 mt-4'>
-          <Container fluid={true}>
-            <Row className='p-3 p-md-4 p-lg-0 p-xl-4 gap-5 justify-content-center'>
-              {
-                parsedPosts.map((post, index) => {
-                  console.log(posts[index].id);
-                  
-                 return(
-                  <Col key={index} xs={12} sm={5} md={5} lg={5} className="d-flex flex-column flex-xl-row border border-2 gap-3 m-0 p-0 rounded-2 blog_card">
-                    <div style={{height:"230px"}} >
-                       <img key={index} src={post.images[0]} alt={`Post image ${index}`}  srcSet={post.images[1]} className='blog_img'/>
-                   </div> 
-                    <div className='d-flex flex-column gap-2 p-2'>
-                    <p className='fw-medium fs-5' dangerouslySetInnerHTML={{__html:post["title"]}}/>
-                     <span className='text-secondary'>Admin | {new Date(posts[index].modified).toLocaleDateString('en-US',{ year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                     <Link to={`/blogs/${posts[index].id}`} className='text-decoration-none'>
-  Read More <FaArrowRight />
-</Link>
-                     </div>
-                </Col>
-                 ) 
-                  })
-              }
-              {/* <Col>
-              <Outlet/>
-              </Col> */}
-            </Row>
-          </Container>
-        </Col>
+        {
+          loading ? 
+          <Col className='col-12 m-0 p-0 mt-4'>
+            <Container fluid={true}>
+              <Row className='p-3 p-md-4 p-lg-0 p-xl-4 gap-5 justify-content-center'>
+              <Col className="col-12 m-0 p-0 text-center text-info fs-4">
+                  Loading....
+              </Col>
+              </Row>
+            </Container>
+          </Col> :
+          error ? 
+          <Col className="col-12 m-0 p-0"><p>Error loading posts: {error}</p></Col> :
+          parsedPosts.length === 0 ? 
+          <Col className="col-12 m-0 p-0">No posts available</Col> :
+          <Col className='col-12 m-0 p-0 mt-4'>
+            <Container fluid={true}>
+              <Row className='p-3 p-md-4 p-lg-0 p-xl-4 gap-5 justify-content-center'>
+                {
+                  parsedPosts.map((post, index) => (
+                    <Col key={index} xs={12} sm={5} md={5} lg={5} className="d-flex flex-column flex-xl-row border border-2 gap-3 m-0 p-0 rounded-2 blog_card">
+                      <div style={{ height: "230px" }}>
+                        <img src={post.images[0]} alt={`Post image ${index}`} srcSet={post.images[1]} className='blog_img' />
+                      </div>
+                      <div className='d-flex flex-column gap-2 p-2'>
+                        <p className='fw-medium fs-5' dangerouslySetInnerHTML={{ __html: post.title }} />
+                        <span className='text-secondary'>Admin | {new Date(posts[index].modified).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                        <Link to={`/blogs/${posts[index].id}`} className='text-decoration-none'>
+                          Read More <FaArrowRight />
+                        </Link>
+                      </div>
+                    </Col>
+                  ))
+                }
+              </Row>
+            </Container>
+          </Col>
+        }
       </Row>
     </Container>
   );
