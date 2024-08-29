@@ -10,7 +10,7 @@
   --button-bg-color:#48BAEB; 
   --primary-text-color:#475467;
   --primary-background-color:#48BAEB;
-  --we-offer-background:#f8f8f8;
+  --sliver-background:#f8f8f8;
 }
 
 body, html, #root {
@@ -60,13 +60,11 @@ body, html, #root {
     padding-top:6rem;
 }
 .header { 
-    /* border: 1px solid purple; */
     background-color: #fff;
     flex: 0 0 auto;
 }
   
 .main-content {
-
 flex: 1 0 auto; /* Main content takes up the remaining space */
 }
   
@@ -217,9 +215,30 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 
 
 .we-offer-container{
-  background-color: var(--we-offer-background);
+  background-color: var(--sliver-background);
 }
 
+
+/* Service Flow Section */ 
+.service_flow{
+  background-color: var(--sliver-background);
+}
+
+.service_content{
+ max-height: 700px !important; 
+  overflow-y:auto;
+}  
+.service_content::-webkit-scrollbar{
+  display: none;
+}
+
+.service_icon{ 
+  position: relative;
+}
+.service_icon::before{ 
+  position: absolute !important;
+  border: 1px solid black dotted !important; 
+}
 
 
 /* About Us */
@@ -456,7 +475,7 @@ border: none !important;
   } 
 }
 
-@media screen and (max-width:1200px) {
+@media only screen and (max-width:1200px) {
   
 .e-parent:first-child img{
   max-width: 100%;
@@ -484,7 +503,7 @@ border: none !important;
   } 
   
 } 
-@media screen and (min-width:1200px) {
+@media only screen and (min-width:1200px) {
   .blog_img{
     width:300px ; 
     height: 100%;

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Col, Container, Row } from 'react-bootstrap';
-
+import DOMPurify from 'dompurify';
 const OrderSection = ({ heading, paragraph, card }) => {
   return (
     <Container fluid>
@@ -26,7 +26,7 @@ const OrderSection = ({ heading, paragraph, card }) => {
                   md={4}
                 >
                   <div
-                    dangerouslySetInnerHTML={{ __html: c.icon }}
+                    dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(c.icon) }}
                     className='order_svg'
                   />
                   <p className='fs-4 order_para'>{c.content}</p>
