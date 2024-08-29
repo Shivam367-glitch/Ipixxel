@@ -7,6 +7,7 @@ import DescriptionSection from "../components/DescriptionSection"
 import {descriptionList} from "../Utility/description.json";
 import {tech} from "../Utility/tech.json"
 import CountUp from "react-countup/"
+import ServiceFlowSection from "../components/ServiceFlowSection"
 const WebDev = () => {
   const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[0]
   return (
@@ -51,6 +52,10 @@ const WebDev = () => {
             </Col>
           </Row>
         </Container>
+      </Col>
+
+      <Col className="col-12 m-0 p-0  mt-4"> 
+        <ServiceFlowSection serviceFlow={serviceList[0].serviceFlow}/>
       </Col>
       <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
         <Contact background="Contact.webp" />
