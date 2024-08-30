@@ -71,6 +71,40 @@
             "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"74\" height=\"74\" viewBox=\"0 0 74 74\" fill=\"none\"><circle cx=\"37\" cy=\"37\" r=\"37\" fill=\"#FADBCF\"></circle><circle cx=\"37\" cy=\"37\" r=\"30\" fill=\"#E65A25\"></circle><g clip-path=\"url(#clip0_2005_213)\"><mask id=\"mask0_2005_213\" style=\"mask-type:luminance\" maskUnits=\"userSpaceOnUse\" x=\"23\" y=\"23\" width=\"28\" height=\"28\"><path d=\"M23 23H51V51H23V23Z\" fill=\"white\"></path></mask><g mask=\"url(#mask0_2005_213)\"><path d=\"M40.8834 49.0293H29.2207C28.9187 49.0293 28.6738 48.7844 28.6738 48.4824V47.8111C28.6738 47.0561 29.286 46.4439 30.041 46.4439H43.9612C44.7163 46.4439 45.3284 47.0561 45.3284 47.8111V48.4824C45.3284 48.7844 45.0836 49.0293 44.7815 49.0293H42.671\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M40.4043 42.4528L41.8216 46.4453\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M32.1797 46.4453L33.597 42.4528\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M27.7773 36.875L30.1182 30.7288C30.166 30.6119 30.3316 30.6117 30.3796 30.7285L32.6992 36.875\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M28.5078 35.3438H31.9814\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M45.6613 31.983C45.6613 32.7752 45.0191 33.4175 44.2269 33.4175C43.834 33.4175 42.416 33.4238 42.416 33.4238V31.983V30.5486H44.2269C45.0191 30.5486 45.6613 31.1908 45.6613 31.983Z\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M46.2211 35.0978C46.2211 36.0245 45.4698 36.7758 44.543 36.7758C44.0834 36.7758 42.416 36.7832 42.416 36.7832V35.0978V33.4198H44.543C45.4698 33.4198 46.2211 34.1711 46.2211 35.0978Z\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M36.6042 36.8742L35.9062 42.4512\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M38.0938 24.9723L36.8262 35.1016\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M28.1124 24.9711H24.2305C23.7774 24.9711 23.4102 25.3384 23.4102 25.7914V41.6309C23.4102 42.0839 23.7774 42.4512 24.2305 42.4512H49.7695C50.2226 42.4512 50.5898 42.0839 50.5898 41.6309V25.7914C50.5898 25.3384 50.2226 24.9711 49.7695 24.9711H29.8891\" stroke=\"white\" stroke-width=\"0.820312\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path></g></g><defs><clipPath id=\"clip0_2005_213\"><rect width=\"28\" height=\"28\" fill=\"white\" transform=\"translate(23 23)\"></rect></clipPath></defs></svg>",
             "content":"Testing is assessing each button and hyperlink on a website to make sure they operate. This ensures a faultless website that performs to the highest standards."
           }
+        ],
+        "serviceType":[
+          {
+            "title":"Static Design",
+            "content":"In static web design, the website's layout and proportions are pre-fixed. Elements like width, height, margin, padding, etc are fixed regardless of the user’s screen size."
+          },
+          {
+            "title":"Responsive Design",
+            "content":"A design strategy that takes into account the variety of devices and screen sizes, allowing content to automatically adjust to the screen whether it's being seen on a tablet, phone, TV, or watch."
+          },
+          {
+            "title":"Dynamic Design",
+            "content":"Dynamic design utilizes visual elements to convey movement and energy, creating compositions that capture the essence of vitality and motion, engaging viewers with its dynamism."
+          },
+          {
+            "title":"Adaptive Design",
+            "content":"Adaptive website design has multiple layouts of the website that are created for different devices. Based on the user’s device the website adapts seamlessly to the best fit for that particular device."
+          }, 
+          {
+            "title":"Liquid Design",
+            "content":"The proportion of the elements in liquid design will remain the same but the layout will be adjusted based on the user’s device."
+          }, 
+          {
+            "title":"Single Page Design",
+            "content":"Single page design is also known as a landing page, in this design a single page is created for the products or services to attract more potential customers for PPC campaigns."
+          }, 
+          {
+            "title":"Fixed Design",
+            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling."
+          } ,
+          {
+            "title":"Illustrative Design",
+            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling."
+          }
         ]
       },
       {
@@ -221,6 +255,57 @@
           {
             "icon":"<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"70\" height=\"70\" viewBox=\"0 0 70 70\" fill=\"none\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M10.3727 9H58.6787C59.5969 9 60.4389 9.38071 61.0481 9.98986L61.0526 9.99434L61.057 9.99882L61.0615 10.0033C61.6707 10.6169 62.0469 11.4545 62.0469 12.3727V58.6318C62.0469 59.5589 61.6662 60.401 61.057 61.0101C60.4479 61.6193 59.6059 62 58.6787 62H10.3727C9.45449 62 8.61244 61.6238 7.99882 61.0101L7.99434 61.0057L7.98986 61.0012L7.98538 60.9967C7.37624 60.3831 7 59.5455 7 58.6273V12.3637C7.00896 11.4366 7.38519 10.5945 7.99434 9.98538C8.03017 9.94955 8.066 9.91372 8.10631 9.88236C8.7065 9.33592 9.50376 9 10.3727 9ZM36.4763 53.2301C35.7686 53.2301 35.1953 52.6075 35.1953 51.8372C35.1953 51.0668 35.7686 50.4442 36.4763 50.4442H52.2513C52.959 50.4442 53.5323 51.0668 53.5323 51.8372C53.5323 52.6075 52.959 53.2301 52.2513 53.2301H36.4763ZM16.3342 53.2301C15.6355 53.2301 15.0667 52.6075 15.0667 51.8372C15.0667 51.0668 15.6355 50.4442 16.3342 50.4442H30.9582C31.6569 50.4442 32.2257 51.0668 32.2257 51.8372C32.2257 52.6075 31.6569 53.2301 30.9582 53.2301H16.3342ZM15.8281 47.1432C15.1294 47.1432 14.5606 46.5206 14.5606 45.7502C14.5606 44.9798 15.1294 44.3572 15.8281 44.3572H30.452C31.1508 44.3572 31.7196 44.9798 31.7196 45.7502C31.7196 46.5206 31.1508 47.1432 30.452 47.1432H15.8281ZM36.4763 47.1432C35.7686 47.1432 35.1953 46.5206 35.1953 45.7502C35.1953 44.9798 35.7686 44.3572 36.4763 44.3572H52.2513C52.959 44.3572 53.5323 44.9798 53.5323 45.7502C53.5323 46.5206 52.959 47.1432 52.2513 47.1432H36.4763ZM14.8875 24.5735H53.38V34.5H14.8875V24.5735ZM59.0057 21.0619C58.8982 21.0799 58.7907 21.0888 58.6832 21.0888H10.3727C10.2607 21.0888 10.1532 21.0799 10.0502 21.0619V58.6228C10.0502 58.7124 10.086 58.793 10.1398 58.8513L10.1443 58.8557C10.2025 58.914 10.2786 58.9453 10.3727 58.9453H58.6787C58.7638 58.9453 58.8444 58.9095 58.9071 58.8468C58.9654 58.7886 59.0057 58.7079 59.0057 58.6184V21.0619ZM29.4577 13.3446C30.667 13.3446 31.6435 14.3255 31.6435 15.5304C31.6435 16.7352 30.6626 17.7161 29.4577 17.7161C28.2529 17.7161 27.272 16.7352 27.272 15.5304C27.272 14.3255 28.2529 13.3446 29.4577 13.3446ZM21.8121 13.3446C23.0214 13.3446 23.9978 14.3255 23.9978 15.5304C23.9978 16.7352 23.0169 17.7161 21.8121 17.7161C20.6027 17.7161 19.6263 16.7352 19.6263 15.5304C19.6263 14.3255 20.6072 13.3446 21.8121 13.3446ZM14.1709 13.3446C15.3802 13.3446 16.3566 14.3255 16.3566 15.5304C16.3566 16.7352 15.3757 17.7161 14.1709 17.7161C12.9615 17.7161 11.9851 16.7352 11.9851 15.5304C11.9851 14.3255 12.9615 13.3446 14.1709 13.3446Z\" fill=\"#585858\"></path></svg>",
             "content":"WEBSITE DESIGNING"
+          }
+        ],
+        "serviceType":[
+          {
+            "title":"On-page SEO",
+            "content":"Use of relevant keywords in the URL, title, meta description, and image tags.Writing high-quality content that is relevant to your target audience.",
+            "img":{
+              "src":"on-page-seo.webp",
+              "srcset":"on-page-seo.webp 400w,on-page-seo-300x225.jpg 300w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
+          },{
+            "title":"Off-page SEO",
+            "content":"Off-page SEO complements on-page optimization to improve a site's ranking.Off-page optimization involves actions taken outside your website to boost visibility.",
+            "img":{
+              "src":"off-page-seo.webp",
+              "srcset":"off-page-seo.webp 400w,off-page-seo-300x225.jpg 300w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
+          },{
+            "title":"Technical SEO",
+            "content":"Technical SEO improves website crawlability and indexability for better organic ranking.Ensuring your website is primed for optimal search visibility.",
+            "img":{
+              "src":"techincal-seo.jpg",
+              "srcset":"techincal-seo.jpg 400w,techincal-seo-300x225.jpg 330w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
+          },{
+            "title":"Local SEO",
+            "content":"Mobile-focused local SEO strategies to prioritize local search results.Targeting local search results with phrases like 'near me'.",
+            "img":{
+              "src":"local-seo.webp",
+              "srcset":"local-seo.webp 400w,local-seo-300x225.jpg 300w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
+          },{
+            "title":"Global SEO",
+            "content":"Translate your website and content into the languages of your target audience.Use the right keywords and phrases in your content and website structure.",
+            "img":{
+              "src":"global-seo.jpg",
+              "srcset":"global-seo.jpg 400w,global-seo-300x225.jpg 300w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
+          },{
+            "title":"E-Commerce SEO",
+            "content":"E-Commerce-related keyword research and optimization for improved search rankings.Enhancing website loading speed for better user experience.",
+            "img":{
+              "src":"e-commerce-seo.jpg",
+              "srcset":"e-commerce-seo.jpg 400w,e-commerce-seo-300x225.jpg 330w",
+              "sizes":"(max-width: 400px) 100vw, 400px"
+            }
           }
         ]
       }

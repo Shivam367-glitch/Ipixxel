@@ -5,6 +5,7 @@ import OrderSection from "../components/Order/OrderSection"
 import {serviceList} from "../Utility/service.json"
 import DescriptionSection from '../components/DescriptionSection'
 import {descriptionList} from "../Utility/description.json";
+import TypeSection from "../components/TypeSection"
 
 const DigitalMarketing = () => {
   const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[5]
@@ -21,7 +22,10 @@ const DigitalMarketing = () => {
          card={serviceList[5]["specificService"]}/>
         </Col>
         <Col className="col-12 m-0 p-0  mt-4">
-      <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
+        <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
+        </Col> 
+        <Col className="col-12 m-0 p-0 mt-4 p-md-4"> 
+        <TypeSection heading={"Core SEO services from the top SEO agency"} TypeList={serviceList[5]["serviceType"]}/>
       </Col>
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
