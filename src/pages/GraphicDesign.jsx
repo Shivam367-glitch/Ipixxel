@@ -20,7 +20,7 @@ const GraphicDesign = () => {
               <Container fluid={true} className="m-0 p-0">
                <Row className="d-flex flex-column flex-md-row gap-0 row-gap-4   overflow-hidden ">
                   <Col xs={12} md={6} className="d-flex flex-column gap-4">  
-                    <Card as={Col}  xs={12} className=" border-0 rounded-0 align-items-md-center justify-content-center justify-content-md-start  p-3" style={{backgroundColor:"#dbecff"}}> 
+                    <Card as={Col}  xs={12} className=" border-0 rounded-0 wow animate__animated animate__backInLeft  p-3" style={{backgroundColor:"#dbecff"}}> 
                     <Container fluid={true} className="m-0 p-0">
                       <Row className="d-flex flex-column-reverse flex-lg-row">
                       <Col  className="d-flex flex-column gap-3 align-self-md-end text-center text-lg-start">
@@ -34,9 +34,9 @@ const GraphicDesign = () => {
                       </Row>
                     </Container>
                     </Card>
-                    <Card as={Col} xs={12} className="border-0 rounded-0  p-3" style={{backgroundColor:"#ffe9ca"}}>
+                    <Card as={Col} xs={12} className="border-0 rounded-0  p-3 wow animate__animated animate__backInLeft" style={{backgroundColor:"#ffe9ca"}}>
                     <Container fluid={true} className="m-0 p-0">
-                      <Row className="d-flex flex-column-reverse flex-lg-row">
+                      <Row className="d-flex flex-column-reverse flex-lg-row ">
                       <Col className="d-flex flex-column gap-3 align-self-md-end text-center text-lg-start">
                         <h4 className="fw-medium fs-4">Building trust with the first impression</h4>
                         <p className="fw-lighter fs-6">Graphic design and web pages visually convey professionalism and reliability, fostering trust through compelling imagery that speaks volumes about credibility.</p>
@@ -49,7 +49,7 @@ const GraphicDesign = () => {
                     </Card>
                   </Col>  
                  <Col xs={12} md={6} className="align-self-md-center ">  
-                  <div style={{backgroundColor:"#ffe5f9"}} className="p-3 text-center ">
+                  <div style={{backgroundColor:"#ffe5f9"}} className="p-3 text-center wow animate__animated animate__backInRight">
                       <img src="logo-a-professional-explainer.webp" className="img_graphic img-fluid" alt="" srcSet="logo-a-professional-explainer.webp 481w,logo-a-professional-explainer-300x257.webp 300w" sizes="(max-width: 481px) 100vw, 481px"/>
                       <h4 className="fw-medium fs-4   text-xl-start">Logo - A professional explainer</h4>
                       <p className="fw-lighter fs-6 mt-4   text-xl-start" >Who wouldn't want their ideas to be presented visually? It begins, naturally, with a logo design. Your business idea might become a reality with just one logo image. A well-designed logo or website provides you a unique identity and successfully communicates the qualities of your business.</p>
