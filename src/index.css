@@ -238,7 +238,24 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 .service_icon::before{ 
   position: absolute !important;
   border: 1px solid black dotted !important; 
-}
+} 
+
+/* Type Section */
+
+
+.type_img{
+  transition: transform 0.4s ease;
+
+
+} 
+
+.type_card:hover .type_img{
+  transform: scale(1.04); 
+} 
+
+
+
+
 
 
 /* About Us */
@@ -259,8 +276,7 @@ flex: 1 0 auto; /* Main content takes up the remaining space */
 /* Order Section*/
 
 .order_card{
-  /* width: 18rem !important;  */
-   /* height: 18rem !important;  */
+ 
   transition: all 0.3ms ease-in-out;
 } 
 
@@ -302,7 +318,36 @@ border: none !important;
  
 } 
 
+/* Graphic Design Section */ 
 
+.img_graphic:hover{
+    animation-name: skew-animation-effect;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes skew-animation-effect {
+  16.65% {
+    transform: skew(-12deg);
+}
+33.3% {
+  transform: skew(10deg);
+}
+49.95% {
+  transform: skew(-6deg);
+}
+66.6% {
+  transform: skew(4deg);
+}
+83.25% {
+  transform: skew(-2deg);
+}
+100% {
+  transform: skew(0);
+}
+}
 /* Blog */
 
 .blog_img{

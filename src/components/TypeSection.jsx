@@ -14,8 +14,10 @@ const TypeSection = ({heading,TypeList}) => {
             {
               TypeList.map((type,ind)=>{
                 return (
-                  <Card as={Col} xs={12} sm={5} lg={3} key={ind} className="border m-0 p-0 rounded-3"> 
-                    <Card.Img variant="top" src={type.img.src} srcSet={type.img.srcset} sizes={type.img.sizes} className="img-fluid" style={{maxWidth:"100%",height:"auto"}}/>
+                  <Card as={Col} xs={12} sm={5} lg={3} key={ind} className="border border-2 m-0 p-0 rounded-4 type_card">  
+                  <div className="px-1">
+                  <Card.Img variant="top" src={type.img.src} srcSet={type.img.srcset} sizes={type.img.sizes} className="img-fluid type_img" />
+                  </div>
                     <Card.Body className="m-0 p-2"> 
                       <h4>{type.title}</h4> 
                       {/* <pre>{console.log(type.content.split("."))}</pre> */}
