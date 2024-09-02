@@ -352,7 +352,7 @@ body, html, #root {
 /* Mobile Development  */ 
 
 .app_process_container{
-  background-image: url('dark-bg.webp');
+  background-image: url('darkBg.webp');
   /* background-image: url('offerBack.webp'); */
 }
 
