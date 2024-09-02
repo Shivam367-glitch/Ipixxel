@@ -68,8 +68,8 @@ const AppDev = () => {
 
         {/* App Development Process Section */} 
 
-        <Col className=" col-12 mt-4 app_process_container" > 
-        <Container fluid={true} >
+        <Col className="col-12 mt-4 app_process_container" > 
+          <Container fluid={true} >
           <Row  className="p-md-4 d-flex flex-column gap-3 my-5">
             <Col className="col-12 m-0 p-0"> 
             <h2 className="text-white">App Development Process</h2>
@@ -78,8 +78,8 @@ const AppDev = () => {
             <p className="text-white fs-5">Being a quality-focused Mobile App Development Company, ipixxel guarantees intuitive mobile apps that are performance-oriented and a valuable addition to users’ lives.</p>
             </Col> 
             <Col className="col-12 m-0 p-0"> 
-              <Container fluid={true} className="app_process_container"> 
-    <Row className="p-lg-3 gap-5 justify-content-center">
+              <Container fluid={true} > 
+                <Row className="p-lg-3 gap-5 justify-content-center">
       <AppProcessCard 
         heading="Plan" 
         paragraph="Business evaluation Recording the specs Making wireframes Obtaining consent from the customer" 
@@ -98,12 +98,12 @@ const AppDev = () => {
         image="development.webp"
         number="03"
       />
-    </Row>
+                </Row>
               </Container>
             </Col>
 
           </Row>
-        </Container>
+          </Container>
         </Col>
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
