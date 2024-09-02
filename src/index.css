@@ -349,7 +349,11 @@ body, html, #root {
   background-size: cover;
 }
 
+/* Mobile Development  */ 
 
+.app_process_container{
+  background-image: url("dark-bg.webp");
+}
 
 /* Graphic Design Section */ 
 

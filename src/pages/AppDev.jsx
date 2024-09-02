@@ -3,6 +3,7 @@ import Contact from "../components/Contact/Contact"
 import HeroSection from "../components/Hero/HeroSection"
 import OrderSection from "../components/Order/OrderSection"
 import {serviceList} from "../Utility/service.json"
+import AppProcessCard from "../components/AppProcessCard"
 const AppDev = () => {
   return (
     <Container fluid={true}>
@@ -15,7 +16,8 @@ const AppDev = () => {
           heading={"Mobile App Development Services"} 
           paragraph={"As a custom mobile application development firm, we assist companies with product ideation, converting requirements into usable designs, and crafting state-of-the-art solutions. You can depend on a single organization to supply the product because all of the offers are internal."}
           card={serviceList[1]["specificService"]}/>
-        </Col>
+        </Col> 
+        {/* Trusted section */}
         <Col className="m-0 p-0 col-12 mt-4"> 
         <Container fluid={true}>
           <Row className="d-flex flex-row">
@@ -31,7 +33,7 @@ const AppDev = () => {
                   <Col xs={12}> 
                        <p className="text-secondary-emphasis">Delivering result-driven software application development services to our diverse clientele spanning all major industries.</p> 
                   </Col> 
-                  <Col xs={12} md={12} className="app_tab_container"> 
+                  <Col xs={12} md={12} xl={10} className="app_tab_container"> 
                           <Tabs defaultActiveKey="Education" className="mb-3 border-0 app_tab" fill>
                             <Tab eventKey="Education" title="Education" className="">
                               <h3>Education</h3>
@@ -59,6 +61,47 @@ const AppDev = () => {
                 </Row>
               </Container>
             </Col>
+          </Row>
+        </Container>
+        </Col> 
+
+
+        {/* App Development Process Section */} 
+
+        <Col className=" col-12 mt-4 app_process_container" > 
+        <Container fluid={true} >
+          <Row  className="p-md-4 d-flex flex-column gap-3 my-5">
+            <Col className="col-12 m-0 p-0"> 
+            <h2 className="text-white">App Development Process</h2>
+            </Col> 
+            <Col className="col-12 m-0 p-0"> 
+            <p className="text-white fs-5">Being a quality-focused Mobile App Development Company, ipixxel guarantees intuitive mobile apps that are performance-oriented and a valuable addition to users’ lives.</p>
+            </Col> 
+            <Col className="col-12 m-0 p-0"> 
+  <Container fluid={true}> 
+    <Row className="p-lg-3 gap-5 justify-content-center">
+      <AppProcessCard 
+        heading="Plan" 
+        paragraph="Business evaluation Recording the specs Making wireframes Obtaining consent from the customer" 
+        image="plan.webp"
+        number="01"
+      />
+      <AppProcessCard 
+        heading="Design"
+        paragraph="Creating a prototype for an app Making adjustments Obtaining consent from the customer Putting input into practice"
+        image="design.webp"
+        number="02"
+      /> 
+      <AppProcessCard 
+        heading="Development" 
+        paragraph="Development plan Testing plan creation of products Product introduction"
+        image="development.webp"
+        number="03"
+      />
+    </Row>
+  </Container>
+</Col>
+
           </Row>
         </Container>
         </Col>
