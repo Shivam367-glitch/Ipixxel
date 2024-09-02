@@ -15,7 +15,8 @@ import DigitalMarketing from "./pages/DigitalMarketing";
 import ItConsulting from "./pages/ItConsulting";
 import GraphicDesign from "./pages/GraphicDesign";
 import BlogDetail from './components/BlogDetail';
-import { useSelector } from 'react-redux';
+ 
+import { Analytics } from "@vercel/analytics/react"
 
 const AppLayout = () => {
   return (
@@ -24,6 +25,7 @@ const AppLayout = () => {
       <main className="main-content">
         <Outlet />
       </main>
+      <Analytics/>
       <Footer className="footer" />
     </div>
   );
