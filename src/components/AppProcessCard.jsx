@@ -4,10 +4,10 @@ const AppProcessCard = ({ heading, paragraph, image, number }) => {
   return (
     <Card
       as={Col}
-      xs={12} // Full width on extra small devices
-      md={3} // One-third width on medium devices (tablets)
-      lg={3} // One-third width on large devices (laptops)
-      className="m-0 p-0 gap-3 border-0 rounded-3"
+      xs={12}  
+      md={3}  
+      
+      className="m-0 p-0 gap-3 border-0 rounded-3 wow animate__animated animate__zoomIn"
     >
       <h4 className="ps-3 fs-3 fw-medium mt-3">{heading}</h4>
       <p className="px-3 text-secondary">{paragraph}</p>

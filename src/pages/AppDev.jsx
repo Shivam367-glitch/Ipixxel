@@ -78,7 +78,7 @@ const AppDev = () => {
             <p className="text-white fs-5">Being a quality-focused Mobile App Development Company, ipixxel guarantees intuitive mobile apps that are performance-oriented and a valuable addition to users’ lives.</p>
             </Col> 
             <Col className="col-12 m-0 p-0"> 
-  <Container fluid={true}> 
+              <Container fluid={true}> 
     <Row className="p-lg-3 gap-5 justify-content-center">
       <AppProcessCard 
         heading="Plan" 
@@ -99,8 +99,8 @@ const AppDev = () => {
         number="03"
       />
     </Row>
-  </Container>
-</Col>
+              </Container>
+            </Col>
 
           </Row>
         </Container>
