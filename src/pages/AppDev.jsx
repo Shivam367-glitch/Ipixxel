@@ -11,7 +11,7 @@ const AppDev = () => {
         <Col className="col-12 m-0 p-0">
           <HeroSection background="AppHero.webp" heading="Mobile App" subHeading="Development" backgroundPosition="top center"/>
         </Col> 
-        
+
         <Col className="m-0 p-0 col-12 mt-4 p-md-4">
           <OrderSection
           heading={"Mobile App Development Services"} 
@@ -125,11 +125,12 @@ const AppDev = () => {
               <li className="consult_list fs-6 text-body">Marketing opportunities</li>
              </ul> 
             </Col> 
-            <Col xs={12} md={5} className="m-0 p-0 text-end">
-            {/* <div className="text-end border"> */}
-            <img loading="lazy" decoding="async"  src="https://ipixxel.com/wp-content/uploads/2024/03/consult-app-development.webp"  alt="" className="img-fluid h-md-100 h-auto"></img>
-            {/* </div> */}
-             </Col>
+            <Col xs={12} md={5} className="m-0 p-0 text-end ">
+            <div className="wow animate__animated animate__backInRight">
+            <img loading="lazy" decoding="async"  src="https://ipixxel.com/wp-content/uploads/2024/03/consult-app-development.webp"  alt="" className="img-fluid h-md-100 h-auto "></img>
+             
+            </div>
+           </Col>
           </Row>
         </Container>
         </Col>

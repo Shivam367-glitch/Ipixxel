@@ -13,8 +13,31 @@ const DigitalMarketing = () => {
   return (
     <Container fluid={true}>
     <Row> 
-       <Col className="col-12 m-0 p-0">
+        <Col className="col-12 m-0 p-0">
           <HeroSection background="digitalHero.jpg" heading="Digital" subHeading="Marketing" backgroundPosition="top center"/>
+        </Col> 
+        {/* Choose Us Section */} 
+        <Col className="m-0 p-0 col-12 col-md-11 mt-4 p-md-4">
+          <Container fluid={true}> 
+          <Row className="gap-3">
+            <Col className="col-8 ">
+             <h2 className="fs-1 fw-bold">Result-oriented Digital Marketing company in Bangalore</h2>
+            </Col>
+            <Col className="col-12">
+            <p className="text-dark fs-5">We are a well-known digital marketing agency in Bangalore that is dedicated to advancing the success of your brand online. Our comprehensive solutions address a wide range of digital requirements, enabling your business to set new standards.</p>
+            </Col> 
+            <Col className="col-12  ">
+            <ul className="list-unstyled   d-flex flex-column gap-3">
+
+              <li className="consult_list text-dark fw-normal">Use our knowledge and experience to get the attention of your target audience.</li>
+              <li className="consult_list text-dark fw-normal">As a branding agency, we use digital marketing tactics to guarantee worldwide brand resonance and go beyond simple presence.</li>
+              <li className="consult_list text-dark fw-normal">Use the internet to leverage traditional marketing constraints and achieve exponential growth.</li>
+              <li className="consult_list text-dark fw-normal">Reach a larger audience by working together with others and utilizing innovative strategies.</li>
+              <li className="consult_list text-dark fw-normal">Make your brand unstoppable online to propel it to the forefront of the sector.</li>
+            </ul>
+            </Col>
+          </Row>
+          </Container>
         </Col>
         <Col className="m-0 p-0 col-12 mt-4 p-md-4">
          <OrderSection heading={"Digital marketing services we offer"}
