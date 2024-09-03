@@ -11,6 +11,7 @@ const AppDev = () => {
         <Col className="col-12 m-0 p-0">
           <HeroSection background="AppHero.webp" heading="Mobile App" subHeading="Development" backgroundPosition="top center"/>
         </Col> 
+        
         <Col className="m-0 p-0 col-12 mt-4 p-md-4">
           <OrderSection
           heading={"Mobile App Development Services"} 
@@ -108,9 +109,9 @@ const AppDev = () => {
         </Col>
 
 
-      {/* CONSULT Section */}
+        {/* CONSULT Section */}
 
-      <Col xs={12} className="m-0 p-0 mt-5">
+        <Col xs={12} className="m-0 p-0 mt-5">
         <Container fluid={true} >
           <Row className="ps-md-4 justify-content-between">
             <Col  xs={12} md={6} className="d-flex flex-column gap-3 align-self-lg-center"> 
@@ -131,7 +132,7 @@ const AppDev = () => {
              </Col>
           </Row>
         </Container>
-      </Col>
+        </Col>
 
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
