@@ -17,10 +17,10 @@ const DigitalMarketing = () => {
           <HeroSection background="digitalHero.jpg" heading="Digital" subHeading="Marketing" backgroundPosition="top center"/>
         </Col> 
         {/* Choose Us Section */} 
-        <Col className="m-0 p-0 col-12 col-md-11 mt-4 p-md-4">
+        <Col xs={12} md={11} className="m-0 p-0  mt-4 p-md-4">
           <Container fluid={true}> 
           <Row className="gap-3">
-            <Col className="col-8 ">
+            <Col xs={12} lg={8} >
              <h2 className="fs-1 fw-bold">Result-oriented Digital Marketing company in Bangalore</h2>
             </Col>
             <Col className="col-12">
@@ -49,7 +49,30 @@ const DigitalMarketing = () => {
         </Col> 
         <Col className="col-12 m-0 p-0 mt-4 p-md-4"> 
         <TypeSection heading={"Core SEO services from the top SEO agency"} TypeList={serviceList[5]["serviceType"]}/>
-      </Col>
+      </Col> 
+
+
+      {/* Social Media Section */} 
+        <Col  xs={12} className="m-0 p-0 p-md-4 mt-4"> 
+        <Container fluid={true}>
+          <Row className="p-3 p-md-0">
+            <Col xs={12} className="m-0 p-0"> 
+            <h1 className="fs-1">Social media marketing agency In Bangalore</h1>
+            </Col>
+            <Col xs={12} className="m-0 p-0 d-md-flex flex-md-row justify-content-md-center  align-items-md-center wow animate__animated animate__zoomIn">
+            <img loading="lazy" decoding="async" width="768" height="512" src="social-media-marketing-agency-768x512.webp" alt="" srcSet="social-media-marketing-agency-768x512.webp 768w,social-media-marketing-agency-300x200.webp 300w,social-media-marketing-agency.webp 834w" sizes="(max-width: 768px) 100vw, 768px" className="img-fluid "></img>
+            </Col> 
+            <Col xs={12} className="m-0  rounded-5 digital_social p-2 p-md-4 text-dark"> 
+               <p className="text-dark fs-5">A company can grow in a variety of ways, but social media marketing is one you may not be aware of. Social networking is becoming a constant on everyone’s mind. It is therefore the ideal location for brand promotion. You can sell your ideas to customers however you’d want to with Webomindapps.</p>
+                <p className="text-dark fs-5">iPixxel uses social media channels to provide creative services that are tailored to your ideas. Being one of Bangalore’s leading and most successful social media marketing companies, we can do anything you ask for and ultimately provide a high return on investment for your company.</p>
+             </Col>
+          </Row>
+        </Container>
+        </Col>
+
+
+
+
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
         </Col>

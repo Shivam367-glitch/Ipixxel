@@ -11,6 +11,7 @@
   --primary-text-color:#475467;
   --primary-background-color:#48BAEB;
   --sliver-background:#f8f8f8;
+  --social-media:#dbecff;
 }
 
 body, html, #root {
@@ -330,7 +331,11 @@ body, html, #root {
 
 } 
 
+ /* Digital Section */ 
 
+.digital_social{
+  background-color: var(--social-media);
+ }
 /* Order Section*/
 
 .order_card{
