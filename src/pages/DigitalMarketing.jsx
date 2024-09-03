@@ -70,7 +70,19 @@ const DigitalMarketing = () => {
         </Container>
         </Col>
 
-
+         <Col xs={12} className="m-0 p-0 ps-md-1 pe-md-4 mt-4 py-5 digital_marketing">
+         <Container fluid={true}>
+          <Row className="gap-3 gap-md-0 p-1">
+            <Col xs={12} md={6} className="m-0 p-0"> 
+             <img loading="lazy" decoding="async" width="609" height="542" src="social-media-marketing-company.jpg" className="img-fluid" alt="" srcSet="social-media-marketing-company.jpg 609w,social-media-marketing-company-300x267.jpg 300w" sizes="(max-width: 609px) 100vw, 609px"/>
+            </Col> 
+            <Col xs={12} md={6} className="align-self-center gap-3 d-flex flex-column m-0 p-0">  
+            <h1 className="display-5 fw-mediumn">Why is iPixxel the go-to social media marketing company In Bangalore?</h1>
+            <p className="text-dark fs-5">Whatever the social media network, we can easily promote your brand on it. iPixxel’s growth has surpassed all previous records due to the client’s success in <span className="text-info">Digital Marketing</span>. Consumers are using social media to interact with our advertised brands at an ever-rising rate. Your integrity, in our opinion, is our integrity. For this reason, we strive to boost your customer’s perception of your authenticity and credibility.</p>
+            </Col>
+          </Row>
+         </Container>
+         </Col>
 
 
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
