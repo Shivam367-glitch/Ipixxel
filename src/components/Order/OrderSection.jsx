@@ -7,7 +7,7 @@ const OrderSection = ({ heading, paragraph, card }) => {
     <Container fluid>
       <Row className='gap-3'>
         <Col xs={12}>
-          <h3 className="display-6 fw-bold fs-1">{heading}</h3>
+          <h2 className="fw-medium fs-1">{heading}</h2>
         </Col>
         {paragraph && (
           <Col xs={12} className="mt-3">
