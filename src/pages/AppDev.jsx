@@ -17,6 +17,7 @@ const AppDev = () => {
           paragraph={"As a custom mobile application development firm, we assist companies with product ideation, converting requirements into usable designs, and crafting state-of-the-art solutions. You can depend on a single organization to supply the product because all of the offers are internal."}
           card={serviceList[1]["specificService"]}/>
         </Col> 
+      
         {/* Trusted section */}
         <Col className="m-0 p-0 col-12 mt-4"> 
         <Container fluid={true}>
@@ -105,6 +106,33 @@ const AppDev = () => {
           </Row>
           </Container>
         </Col>
+
+
+      {/* CONSULT Section */}
+
+      <Col xs={12} className="m-0 p-0 mt-5">
+        <Container fluid={true} >
+          <Row className="ps-md-4 justify-content-between">
+            <Col  xs={12} md={6} className="d-flex flex-column gap-3 align-self-lg-center"> 
+            <h2 className="display-6 fw-medium" >CONSULT WITH OUR MOBILE APP DEVELOPMENT SPECIALIST TO:</h2>
+             <p className="fs-6 text-dark fs-5">Regardless of the gadget that your consumers choose, provide them with your brilliant idea. Put your trust in us for the creation of hybrid mobile applications.</p>
+             <ul className="list-unstyled d-flex flex-column gap-3" >
+              <li className="consult_list fs-6 text-body">Reporting and analysis</li>
+              <li className="consult_list fs-6 text-body">Hybrid technology peculiarities</li>
+              <li className="consult_list fs-6 text-body">Architecture creation and development</li>
+              <li className="consult_list fs-6 text-body">Bug fixing</li>
+              <li className="consult_list fs-6 text-body">Marketing opportunities</li>
+             </ul> 
+            </Col> 
+            <Col xs={12} md={5} className="m-0 p-0 text-end">
+            {/* <div className="text-end border"> */}
+            <img loading="lazy" decoding="async"  src="https://ipixxel.com/wp-content/uploads/2024/03/consult-app-development.webp"  alt="" className="img-fluid h-md-100 h-auto"></img>
+            {/* </div> */}
+             </Col>
+          </Row>
+        </Container>
+      </Col>
+
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
         </Col>
