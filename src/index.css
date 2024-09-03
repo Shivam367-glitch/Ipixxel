@@ -335,7 +335,12 @@ body, html, #root {
 
 .digital_social{
   background-color: var(--social-media);
- }
+ } 
+
+.digital_marketing{
+  background-color: var(--sliver-background);
+}
+
 /* Order Section*/
 
 .order_card{
