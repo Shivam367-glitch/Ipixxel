@@ -90,7 +90,7 @@ body, html, #root {
   font-size: 1.75rem;
 }
 .work_tab .active{
-  background-color: #48BAEB !important;
+  background-color: var(--primary-background-color) !important;
   color: white !important; 
   border-radius: 0 !important; 
   border: none !important;
@@ -171,7 +171,7 @@ body, html, #root {
 
 
 .navbar-nav  .active{
-  color:#48BAEB;
+  color:var(--primary-background-color);
   text-transform: none;
 }
 
@@ -201,8 +201,23 @@ body, html, #root {
 
 .service_list{
   list-style-type:none;
-}
+} 
 
+.consult_list{
+  font-size: 18px;
+  line-height: 22px;
+  color: #54595F !important;
+  font-weight: 500;
+}
+.consult_list::before{
+  content: "\2713";
+  padding: 1px 2px;
+  margin-right: 10px;
+  color:var(--primary-background-color);
+  font-size: 20px;
+  font-weight: bolder;
+   
+}
 .service_list_item::before{
   content: "\2713"; /* Check Mark (✔) */
   margin-right: 6px;
