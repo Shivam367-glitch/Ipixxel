@@ -61,7 +61,7 @@ const WebDev = () => {
 
       {/* <Col className="col-12 m-0 p-0  mt-4"> 
         <ServiceFlowSection serviceFlow={serviceList[0].serviceFlow}/>
-      </Col> */}
+      </Col>  */}
       <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
         <Contact background="Contact.webp" />
       </Col>
