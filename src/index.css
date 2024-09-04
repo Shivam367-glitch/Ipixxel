@@ -340,7 +340,32 @@ body, html, #root {
 .digital_marketing{
   background-color: var(--sliver-background);
 }
+ 
+.seo_strategy{
+  background-image:url('se-strategy.webp');
+} 
 
+ul.custom-numbered-list {
+  list-style-type: none;
+  padding-left: 0;
+  counter-reset: list-counter; /* Initialize counter */
+}
+
+/* Style each list item */
+ul.custom-numbered-list li {
+  counter-increment: list-counter; /* Increment counter */
+  position: relative; /* For positioning the number */
+  padding-left: 2.5em; /* Space for the number */
+}
+
+/* Insert the number before each list item with leading zero */
+ul.custom-numbered-list li::before {
+  content: counter(list-counter, decimal-leading-zero); /* Add number with leading zero */
+  position: absolute;
+  left: 0;
+  color: #48baeb;
+  font-weight: 500;
+}
 /* Order Section*/
 
 .order_card{
