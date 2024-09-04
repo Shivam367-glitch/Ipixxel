@@ -75,35 +75,75 @@
         "serviceType":[
           {
             "title":"Static Design",
-            "content":"In static web design, the website's layout and proportions are pre-fixed. Elements like width, height, margin, padding, etc are fixed regardless of the user’s screen size."
+            "content":"In static web design, the website's layout and proportions are pre-fixed. Elements like width, height, margin, padding, etc are fixed regardless of the user’s screen size.",
+            "img":{
+              "src":"static-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           },
           {
             "title":"Responsive Design",
-            "content":"A design strategy that takes into account the variety of devices and screen sizes, allowing content to automatically adjust to the screen whether it's being seen on a tablet, phone, TV, or watch."
+            "content":"A design strategy that takes into account the variety of devices and screen sizes, allowing content to automatically adjust to the screen whether it's being seen on a tablet, phone, TV, or watch.",
+            "img":{
+              "src":"responsive-design.webp",
+              "sizes":"",
+              "srcset":""
+            }
           },
           {
             "title":"Dynamic Design",
-            "content":"Dynamic design utilizes visual elements to convey movement and energy, creating compositions that capture the essence of vitality and motion, engaging viewers with its dynamism."
+            "content":"Dynamic design utilizes visual elements to convey movement and energy, creating compositions that capture the essence of vitality and motion, engaging viewers with its dynamism.",
+            "img":{
+              "src":"dynamic-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           },
           {
             "title":"Adaptive Design",
-            "content":"Adaptive website design has multiple layouts of the website that are created for different devices. Based on the user’s device the website adapts seamlessly to the best fit for that particular device."
+            "content":"Adaptive website design has multiple layouts of the website that are created for different devices. Based on the user’s device the website adapts seamlessly to the best fit for that particular device.",
+            "img":{
+              "src":"adaptive-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           }, 
           {
             "title":"Liquid Design",
-            "content":"The proportion of the elements in liquid design will remain the same but the layout will be adjusted based on the user’s device."
+            "content":"The proportion of the elements in liquid design will remain the same but the layout will be adjusted based on the user’s device.",
+             "img":{
+              "src":"liquid-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           }, 
           {
             "title":"Single Page Design",
-            "content":"Single page design is also known as a landing page, in this design a single page is created for the products or services to attract more potential customers for PPC campaigns."
+            "content":"Single page design is also known as a landing page, in this design a single page is created for the products or services to attract more potential customers for PPC campaigns.",
+             "img":{
+              "src":"single-page-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           }, 
           {
             "title":"Fixed Design",
-            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling."
+            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling.",
+             "img":{
+              "src":"fixed-design.jpg",
+              "srcset":"",
+              "sizes":""
+            }
           } ,
           {
             "title":"Illustrative Design",
-            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling."
+            "content":"A fixed design is used to fix any element of any part of the page in a particular position, and this remains exactly the same even with the scrolling.",
+             "img":{
+              "src":"adaptive-design.webp",
+              "srcset":"",
+              "sizes":""
+            }
           }
         ]
       },
