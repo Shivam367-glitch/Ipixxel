@@ -16,6 +16,7 @@ const DigitalMarketing = () => {
         <Col className="col-12 m-0 p-0">
           <HeroSection background="digitalHero.jpg" heading="Digital" subHeading="Marketing" backgroundPosition="top center"/>
         </Col> 
+
         {/* Choose Us Section */} 
         <Col xs={12} md={11} className="m-0 p-0  mt-4 p-md-4">
           <Container fluid={true}> 
@@ -39,23 +40,56 @@ const DigitalMarketing = () => {
           </Row>
           </Container>
         </Col>
+
         <Col className="m-0 p-0 col-12 mt-4 p-md-4">
          <OrderSection heading={"Digital marketing services we offer"}
          paragraph={"Digital marketing solutions have replaced traditional marketing techniques, making them obsolete. Offering these outstanding digital marketing services is what sets us apart as one of Bangalore’s leading digital marketing organizations."}
          card={serviceList[5]["specificService"]}/>
         </Col>
-        <Col className="col-12 m-0 p-0  mt-4">
-        <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
-        </Col> 
-        <Col className="col-12 m-0 p-0 mt-4 p-md-4"> 
-        <TypeSection heading={"Core SEO services from the top SEO agency"} TypeList={serviceList[5]["serviceType"]}/>
-      </Col> 
 
+        <Col className="col-12 m-0 p-0  mt-4">
+          <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
+        </Col> 
+
+        <Col className="col-12 m-0 p-0 mt-4 p-md-4"> 
+          <TypeSection heading={"Core SEO services from the top SEO agency"} TypeList={serviceList[5]["serviceType"]}/>
+        </Col> 
+ 
+
+
+        <Col className="col-12 m-0 p-0 mt-4 seo_strategy overflow-hidden">
+        <Container fluid={true}  className="text-white">
+          <Row className="p-0 ps-md-3 py-3  row-gap-3 ">
+            <Col xs={12} md={6} className="d-flex flex-column gap-5"> 
+            <h1 className="fs-1">Developing a comprehensive SEO strategy can help you</h1>
+            <ul className="list-unstyled m-0 p-0 d-flex flex-column gap-4 fs-5 custom-numbered-list " >
+              <li className="border-bottom border-secondary">Improve your website’s ranking in search engines.</li>
+              <li className="border-bottom border-secondary">Generate more traffic to your website.</li>
+              <li className="border-bottom border-secondary">Makes your website a trustworthy and authoritative source.</li>
+              <li className="border-bottom border-secondary">Increase your website’s conversion rate.</li>
+              <li className="border-bottom border-secondary">Increase your website’s conversion rate.Increase your website’s conversion rate.</li>
+              <li className="border-bottom border-secondary">Provides long-term benefits without recurring costs of advertising.</li>
+            </ul>
+            </Col>
+            <Col xs={12} md={6} className="wow animate__animated animate__backInRight text-center text-md-end  align-self-md-center align-self-lg-auto">
+              <img
+                loading="lazy"
+                decoding="async"
+                src="social-media-marketing-company.jpg"
+                className="img-fluid "
+                alt="Social Media Marketing"
+                srcSet="social-media-marketing-company.jpg 609w, social-media-marketing-company-300x267.jpg 300w"
+                sizes="(max-width: 609px) 100vw, 609px"
+              />
+            </Col>
+          </Row>
+        </Container>
+        </Col>
 
       {/* Social Media Section */} 
         <Col  xs={12} className="m-0 p-0 p-md-4 mt-4"> 
         <Container fluid={true}>
-          <Row className="p-3 p-md-0">
+          <Row className="p-2 p-md-0">
             <Col xs={12} className="m-0 p-0"> 
             <h1 className="fs-1">Social media marketing agency In Bangalore</h1>
             </Col>
@@ -70,19 +104,37 @@ const DigitalMarketing = () => {
         </Container>
         </Col>
 
-         <Col xs={12} className="m-0 p-0 ps-md-1 pe-md-4 mt-4 py-5 digital_marketing">
-         <Container fluid={true}>
-          <Row className="gap-3 gap-md-0 p-1">
-            <Col xs={12} md={6} className="m-0 p-0"> 
-             <img loading="lazy" decoding="async" width="609" height="542" src="social-media-marketing-company.jpg" className="img-fluid" alt="" srcSet="social-media-marketing-company.jpg 609w,social-media-marketing-company-300x267.jpg 300w" sizes="(max-width: 609px) 100vw, 609px"/>
-            </Col> 
-            <Col xs={12} md={6} className="align-self-center gap-3 d-flex flex-column m-0 p-0">  
-            <h1 className="display-5 fw-mediumn">Why is iPixxel the go-to social media marketing company In Bangalore?</h1>
-            <p className="text-dark fs-5">Whatever the social media network, we can easily promote your brand on it. iPixxel’s growth has surpassed all previous records due to the client’s success in <span className="text-info">Digital Marketing</span>. Consumers are using social media to interact with our advertised brands at an ever-rising rate. Your integrity, in our opinion, is our integrity. For this reason, we strive to boost your customer’s perception of your authenticity and credibility.</p>
+
+        {/* Digital Marketing section */}
+
+        <Col xs={12} className="m-0 p-0 digital_marketing">
+          <Container fluid >
+            <Row className="gap-3 gap-md-0 p-2 p-md-3">
+            <Col xs={12} md={5} lg={6} className="m-0 p-0 wow animate__animated animate__backInLeft">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="609"
+                height="542"
+                src="social-media-marketing-company.jpg"
+                className="img-fluid"
+                alt="Social Media Marketing"
+                srcSet="social-media-marketing-company.jpg 609w, social-media-marketing-company-300x267.jpg 300w"
+                sizes="(max-width: 609px) 100vw, 609px"
+              />
             </Col>
-          </Row>
-         </Container>
-         </Col>
+            <Col xs={12} md={7} lg={6} className="align-self-center d-flex flex-column gap-3">
+        <h1 className="display-5 ">
+          Why is iPixxel the go-to social media marketing company In Bangalore?
+        </h1>
+        <p className="text-dark fs-5">
+          Whatever the social media network, we can easily promote your brand on it. iPixxel’s growth has surpassed all previous records due to the client’s success in <span className="text-info">Digital Marketing</span>. Consumers are using social media to interact with our advertised brands at an ever-rising rate. Your integrity, in our opinion, is our integrity. For this reason, we strive to boost your customer’s perception of your authenticity and credibility.
+        </p>
+            </Col>
+            </Row>
+          </Container>
+        </Col>
+
 
 
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
