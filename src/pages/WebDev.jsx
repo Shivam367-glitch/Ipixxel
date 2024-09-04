@@ -26,7 +26,7 @@ const WebDev = () => {
       </Col> 
 
       <Col className="col-12 m-0 p-0 mt-4 p-md-4 overflow-hidden"> 
-        <TypeSection heading={"Different Types of Web Design"} TypeList={serviceList[5]["serviceType"]}/>
+        <TypeSection heading={"Different Types of Web Design"} TypeList={serviceList[0]["serviceType"]}/>
       </Col>
       <Col className="col-12 m-0 p-md-4 d-flex flex-column gap-3 mt-4 ">   
       <h2 className="display-5 fw-medium">Technologies in website design</h2> 
