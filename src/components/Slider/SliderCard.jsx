@@ -12,7 +12,6 @@ const {background,buttonInfo,header,image,subHeader,list}=props
         <h2 className="fw-bolder display-6">
           {header}{" "}
           <span className="org">{subHeader}</span> 
-		  {/* <p>services</p> */}
         </h2>
         <ul className="d-flex flex-column gap-2 service_list">
 			{
