@@ -405,7 +405,7 @@ ul.custom-numbered-list li::before {
 /* Mobile Development  */ 
 
 .app_process_container{
-  background-image: url('app.webp');
+  background-image: url('../public/app.webp');
 }
 
 /* Graphic Design Section */ 
