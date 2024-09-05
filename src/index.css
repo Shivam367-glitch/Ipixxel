@@ -196,11 +196,11 @@ body, html, #root {
 
 }
 .service_slider .carousel-control-prev-icon { 
-  background-image: url('left.webp') !important;
+  background-image: url('../public/left.svg') !important;
 }
 
 .service_slider .carousel-control-next-icon {  
-  background-image: url('next.webp') !important;
+  background-image: url('../public/next.svg') !important;
 }
 
 .service_list{
