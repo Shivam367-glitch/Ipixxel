@@ -192,7 +192,8 @@ body, html, #root {
   width: 30px !important;
   color: #e97042 !important;
   opacity: 1 !important;
-  z-index: 2 !important;
+  z-index: 999 !important; 
+
 }
 .service_slider .carousel-control-prev-icon { 
   background-image: url('left.png') !important;
