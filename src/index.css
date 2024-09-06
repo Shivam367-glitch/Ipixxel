@@ -355,7 +355,7 @@ body, html, #root {
 }
  
 .seo_strategy{
-  background-image:url('se-strategy.webp');
+  background-image:url('../public/se-strategy.webp');
 } 
 
 ul.custom-numbered-list {
