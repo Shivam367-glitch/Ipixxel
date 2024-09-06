@@ -5,6 +5,7 @@ import OrderSection from '../components/Order/OrderSection'
 import {serviceList} from "../Utility/service.json"
 import DescriptionSection from '../components/DescriptionSection'
 import {descriptionList} from "../Utility/description.json";
+import ServiceFlowSection from '../components/ServiceFlowSection'
 
 const ItConsulting = () => {
   const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[2]
@@ -19,7 +20,10 @@ const ItConsulting = () => {
      </Col>
      <Col className="col-12 m-0 p-0  mt-4">
       <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
-      </Col>
+      </Col> 
+      <Col className="col-12 m-0 p-0  mt-4"> 
+        <ServiceFlowSection heading={"What is Kado?"} serviceFlow={serviceList[3].serviceFlow} serviceFlowImage={serviceList[3].serviceFlowImage}/>
+      </Col> 
     <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
     </Col>

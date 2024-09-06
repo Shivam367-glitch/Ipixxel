@@ -1,49 +1,62 @@
-
 import { Col, Container, Row } from "react-bootstrap";
 import DOMPurify from "dompurify";
-
-const ServiceFlowSection = ({ serviceFlow }) => {
- 
+import { IoCheckmarkSharp } from "react-icons/io5";
+const ServiceFlowSection = ({ heading,serviceFlow ,serviceFlowImage}) => { 
+  console.log(serviceFlow["content"]);
+  
   return (
-    <Container fluid={true} className="border pe-4 pt-5 service_flow" >
+    <Container fluid={true} className="border pe-4 pt-5 service_flow">
       <Row className="gap-5">
-        <Col className="col-12 display-6 fw-medium text-center">
-          Website Designing Process
+        <Col className="col-12 display-6 fw-medium text-md-center">
+         {heading}
         </Col>
         <Col className="col-12 m-0 p-0">
           <Container fluid={true}>
-            <Row>
-              <Col className="m-0 p-0">
+            <Row className="flex-column flex-lg-row row-gap-4 p-2 p-lg-0">
+              <Col className="m-0 p-0 m-lg-0 p-lg-0 text-center text-lg-start">
                 <div>
                   <img
                     loading="lazy"
                     decoding="async"
-                    width="552"
-                    height="704"
-                    src="https://ipixxel.com/wp-content/uploads/2024/06/Website-Designing-Process.webp"
-                    className="attachment-large size-large wp-image-4299"
-                    alt=""
-                    srcSet="https://ipixxel.com/wp-content/uploads/2024/06/Website-Designing-Process.webp 552w, https://ipixxel.com/wp-content/uploads/2024/06/Website-Designing-Process-235x300.jpg 235w"
-                    sizes="(max-width: 552px) 100vw, 552px"
+                    src={serviceFlowImage.src}
+                    className="img-fluid"
+                    alt={""}
+                    srcSet={serviceFlowImage.srcset}
+                    sizes={serviceFlowImage.sizes}
                   />
                 </div>
               </Col>
-              <Col  className="ms-0 ps-0 service_content">
-                {serviceFlow.map((service, ind) => {
-                  return (
-                    <div key={ind} className="d-flex flex-row gap-5 service_icon">
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: DOMPurify.sanitize(service.icon),
-                        }}
-                      />
-                      <div className="d-flex flex-column gap-3 mb-3">
-                        <h4 className="fs-3">{service.title}</h4>
-                        <p className="text-secondary">{service.content}</p>
-                      </div>
+              <Col className="m-0 p-0">
+                {serviceFlow.map((service,ind) => (
+                  <div key={ind} className="d-flex flex-row gap-5">
+                    <div
+                      dangerouslySetInnerHTML={{
+                        __html: DOMPurify.sanitize(service.icon),
+                      }}
+                      className="service_icon"
+                    />
+                    <div className="d-flex flex-column gap-3 mb-3 border-bottom">
+                      <h4 className="fs-3">
+                        {service.title}
+                        <span className="text-secondary">
+                          {service.subTitle}
+                        </span>
+                      </h4> 
+                      {
+                      typeof service.content=="string"?<p className="text-secondary">{service.content}</p>:<ul className="list-unstyled">
+                        {
+                          service.content.map((item,ind)=>{
+                            return <li  key={ind} className=" text-secondary mt-2  d-flex flex-row gap-3"><IoCheckmarkSharp className="align-self-center ui_list "/> {item}</li>
+                            
+                          })
+                        }
+                      </ul>
+                      
+                      }
+                     
                     </div>
-                  );
-                })}
+                  </div>
+                ))}
               </Col>
             </Row>
           </Container>
