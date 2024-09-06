@@ -20,10 +20,10 @@ const OrderSection = ({ heading, paragraph, card }) => {
               {card.map((c, ind) => (
                 <Col
                   key={ind}
-                  className="order_card border border-secondary-subtle text-center text-md-start text-lg-center m-0 py-5 rounded-2 d-flex flex-column justify-content-center gap-3"
+                  className="order_card border border-secondary-subtle text-center   m-0 py-5 rounded-2 d-flex flex-column justify-content-center gap-3"
                   xs={12}
-                  sm={6}
-                  md={4}
+                  sm={5}
+                  md={5}
                 >
                   <div
                     dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(c.icon) }}

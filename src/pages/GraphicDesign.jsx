@@ -3,7 +3,8 @@ import Contact from "../components/Contact/Contact"
 import HeroSection from "../components/Hero/HeroSection"
 import DescriptionSection from '../components/DescriptionSection'
 import {descriptionList} from "../Utility/description.json";
- 
+import ServiceFlowSection from "../components/ServiceFlowSection";
+import {serviceList} from "../Utility/service.json"
 
 const GraphicDesign = () => {
   const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[3]
@@ -61,7 +62,10 @@ const GraphicDesign = () => {
         </Col>
         <Col className="col-12 m-0 p-0  mt-4">
           <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
-        </Col>
+        </Col> 
+        <Col className="col-12 m-0 p-0  mt-4"> 
+        <ServiceFlowSection heading={"The flow of graphic designing work we follow"} serviceFlow={serviceList[4].serviceFlow} serviceFlowImage={serviceList[4].serviceFlowImage}/>
+      </Col> 
         <Col className="col-12 mt-4 p-md-4  wow animate__animated animate__zoomIn">
           <Contact background="Contact.webp" />
         </Col>

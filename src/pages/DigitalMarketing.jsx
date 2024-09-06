@@ -6,6 +6,7 @@ import {serviceList} from "../Utility/service.json"
 import DescriptionSection from '../components/DescriptionSection'
 import {descriptionList} from "../Utility/description.json";
 import TypeSection from "../components/TypeSection"
+import ServiceFlowSection from "../components/ServiceFlowSection"
 
 const DigitalMarketing = () => {
   const {backgroundImage,heading,paragraphs,imgInfo}=descriptionList[5]
@@ -46,7 +47,10 @@ const DigitalMarketing = () => {
          paragraph={"Digital marketing solutions have replaced traditional marketing techniques, making them obsolete. Offering these outstanding digital marketing services is what sets us apart as one of Bangalore’s leading digital marketing organizations."}
          card={serviceList[5]["specificService"]}/>
         </Col>
-
+        
+        <Col className="col-12 m-0 p-0  mt-4 overflow-hidden"> 
+        <ServiceFlowSection heading={"Our strategy for Digital Marketing excellence"} serviceFlow={serviceList[5].serviceFlow} serviceFlowImage={serviceList[5].serviceFlowImage}/>
+      </Col> 
         <Col className="col-12 m-0 p-0  mt-4">
           <DescriptionSection background={backgroundImage} paragraphs={paragraphs} heading={heading} imgInfo={imgInfo}/>
         </Col> 
