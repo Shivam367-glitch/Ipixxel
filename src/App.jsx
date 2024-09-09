@@ -17,11 +17,13 @@ import GraphicDesign from "./pages/GraphicDesign";
 import BlogDetail from './components/BlogDetail';
  
 import { Analytics } from "@vercel/analytics/react"
+import ScrollToTop from './components/ScrollToTop';
 
 const AppLayout = () => {
   return (
     <div className="app-layout">
-      <Header className="header" />
+      <Header className="header" /> 
+      <ScrollToTop/>
       <main className="main-content">
         <Outlet />
       </main>
