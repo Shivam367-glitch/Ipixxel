@@ -13,7 +13,7 @@
         "type": "image/webp"
       },
       {
-        "src": "icon512.webp",
+        "src": "/icon512.webp",
         "sizes": "512x512",
         "type": "image/webp"
       }
