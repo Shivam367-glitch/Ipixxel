@@ -1,0 +1,25 @@
+extra small<576px-xs
+small>=576px-sm
+Medium>=768px -md
+Large>=992px-lg
+Extra Large>=1200px-xl
+XXL>=1400px-xxl
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+s<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> 
+
+	
+extra small without any middle value.
+medium--->md(tabelts).
+large-->lg(laptops and desktops).
+
+
+
+
+bootstrap carousel
+
+
+
+https://www.linkedin.com/in/s-s-585b6a207
+
